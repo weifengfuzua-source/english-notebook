@@ -1,0 +1,236 @@
+[
+  {
+    "term": "leave + O + C",
+    "meaning": "使……处于某种状态",
+    "meanings": [],
+    "forms": [
+      "leaving us ill equipped",
+      "leaving us ill-equipped",
+      "leave us sluggish and unprepared"
+    ],
+    "appearances": 3,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Our reliance on comfort-driven technologies has created a fragile foundation, leaving us ill-equipped to navigate life without them.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      },
+      {
+        "text": "It delivers an instant lift, only to leave us sluggish and unprepared in the long run.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "term": "may / can / often / tend to",
+    "meaning": "保留可能性或倾向性的语气强度，不能升级成必然",
+    "meanings": [],
+    "forms": [
+      "may provide"
+    ],
+    "appearances": 0,
+    "errorCount": 1,
+    "errors": [
+      {
+        "id": "001-modal-strength",
+        "note": "翻译时曾吞掉 may，把“可能”无意识升级成“一定”",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Social media may provide momentary comfort, but it can also keep us stuck.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "term": "not A, but B",
+    "meaning": "不是 A，而是 B",
+    "meanings": [],
+    "forms": [
+      "not a trait you are born with but a skill",
+      "not a trait you are born with, but a skill"
+    ],
+    "appearances": 2,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Resilience is not a trait you are born with, but a skill that can be developed through intentional practice.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "term": "Nowhere is X more evident than in Y",
+    "meaning": "X 在 Y 中体现得最明显；否定副词置前引起倒装",
+    "meanings": [],
+    "forms": [
+      "nowhere is our discomfort with discomfort more evident than in"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Nowhere is our discomfort with discomfort more evident than in our inability to tolerate boredom.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "only to do",
+    "meaning": "结果却……；最后却……",
+    "meanings": [],
+    "forms": [
+      "only to leave us"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "It delivers an instant lift, only to leave us sluggish and unprepared in the long run.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "the next time + 句子",
+    "meaning": "下次当……的时候",
+    "meanings": [],
+    "forms": [
+      "the next time you feel"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "The next time you feel the pull of ease, pause.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "V-ing 表结果",
+    "meaning": "前面的事情导致后面的结果",
+    "meanings": [],
+    "forms": [
+      "leading to a less adaptable",
+      "pushing us to confront"
+    ],
+    "appearances": 2,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Chronic comfort stifles this process, leading to a less adaptable and more fragile mind.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      },
+      {
+        "text": "Discomfort is the crucible of growth, pushing us to confront uncertainty.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 2
+      }
+    ]
+  }
+]

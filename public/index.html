@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f2e7" />
+    <meta name="description" content="长期追加、自动统计的考研英语精读网页版笔记本" />
+    <title>English Notebook</title>
+    <link rel="stylesheet" href="./styles.css?v=__BUILD_ID__" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到正文</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#/articles" aria-label="English Notebook 首页">English Notebook</a>
+        <nav class="main-nav" aria-label="主导航">
+          <a data-route="articles" href="#/articles">文章</a>
+          <a data-route="vocabulary" href="#/vocabulary">词汇</a>
+          <a data-route="sentences" href="#/sentences">句式</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" tabindex="-1">
+      <div class="loading" role="status">正在打开笔记本……</div>
+    </main>
+    <noscript>这个笔记本需要启用 JavaScript 才能读取本地生成的数据。</noscript>
+    <script type="module" src="./app.js?v=__BUILD_ID__"></script>
+  </body>
+</html>

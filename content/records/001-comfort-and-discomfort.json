@@ -1,0 +1,551 @@
+{
+  "articleId": 1,
+  "vocabulary": [
+    {
+      "term": "resilience",
+      "meaning": "韧性；抗挫、恢复和适应能力",
+      "forms": ["resilience"],
+      "examples": ["Just as physical muscles grow through resistance, mental resilience builds through effort."],
+      "errors": []
+    },
+    {
+      "term": "setback",
+      "meaning": "挫折；阻碍；倒退",
+      "forms": ["setback", "setbacks"],
+      "examples": [],
+      "errors": []
+    },
+    {
+      "term": "alleviate",
+      "meaning": "缓解；减轻，不等于彻底消除",
+      "forms": ["alleviate", "alleviates", "alleviated"],
+      "examples": [],
+      "errors": []
+    },
+    {
+      "term": "reliance",
+      "meaning": "依赖",
+      "forms": ["reliance"],
+      "examples": ["Our reliance on comfort-driven technologies has created a fragile foundation."],
+      "errors": []
+    },
+    {
+      "term": "fragile",
+      "meaning": "脆弱的",
+      "forms": ["fragile"],
+      "examples": ["Chronic comfort, however, stifles this process, leading to a less adaptable and more fragile mind."],
+      "errors": []
+    },
+    {
+      "term": "navigate",
+      "meaning": "导航；抽象义为应对、处理复杂情况",
+      "forms": ["navigate", "navigation"],
+      "examples": ["Our reliance on comfort-driven technologies has created a fragile foundation, leaving us ill-equipped to navigate life without them."],
+      "errors": []
+    },
+    {
+      "term": "crutch",
+      "meaning": "拐杖；比喻依赖物",
+      "forms": ["crutch", "crutches"],
+      "examples": ["All of this can be traced to our growing dependence on digital crutches."],
+      "errors": []
+    },
+    {
+      "term": "engagement",
+      "meaning": "参与；投入；互动",
+      "forms": ["engagement"],
+      "examples": ["They are designed to offer quick relief but often at the expense of deep, meaningful engagement."],
+      "errors": []
+    },
+    {
+      "term": "performance",
+      "meaning": "表现；成绩；绩效",
+      "forms": ["performance", "performances"],
+      "examples": [],
+      "errors": [
+        { "id": "001-performance-expression", "note": "曾误认：表达能力" }
+      ]
+    },
+    {
+      "term": "research",
+      "meaning": "研究",
+      "forms": ["research"],
+      "examples": ["Research shows that viewing stress as a challenge rather than a threat leads to better outcomes."],
+      "errors": [
+        { "id": "001-research-survey", "note": "曾误认：调查；survey 才更偏“调查”" }
+      ]
+    },
+    {
+      "term": "outcome",
+      "meaning": "结果；后果",
+      "forms": ["outcome", "outcomes"],
+      "examples": ["Viewing stress as a challenge rather than a threat leads to better outcomes."],
+      "errors": []
+    },
+    {
+      "term": "threat",
+      "meaning": "威胁",
+      "forms": ["threat", "threats"],
+      "examples": ["Research shows that viewing stress as a challenge rather than a threat leads to better outcomes."],
+      "errors": []
+    },
+    {
+      "term": "neuroscience",
+      "meaning": "神经科学",
+      "forms": ["neuroscience"],
+      "examples": ["Neuroscience reveals that neuroplasticity is enhanced through challenging experiences."],
+      "errors": []
+    },
+    {
+      "term": "reveal",
+      "meaning": "揭示；表明",
+      "forms": ["reveal", "reveals", "revealed"],
+      "examples": ["Neuroscience reveals that neuroplasticity is enhanced through challenging experiences."],
+      "errors": []
+    },
+    {
+      "term": "enhance",
+      "meaning": "增强；提高",
+      "forms": ["enhance", "enhanced", "enhances"],
+      "examples": ["Neuroplasticity is enhanced through challenging experiences."],
+      "errors": []
+    },
+    {
+      "term": "neuroplasticity",
+      "meaning": "神经可塑性",
+      "forms": ["neuroplasticity"],
+      "examples": ["Neuroscience reveals that neuroplasticity is enhanced through challenging experiences."],
+      "errors": []
+    },
+    {
+      "term": "cognitive",
+      "meaning": "认知的",
+      "forms": ["cognitive"],
+      "examples": ["This suppression leads to broader cognitive decline."],
+      "errors": []
+    },
+    {
+      "term": "development",
+      "meaning": "发展；发育",
+      "forms": ["development", "developing", "developed"],
+      "examples": ["This adaptability is crucial for developing resilience."],
+      "errors": [
+        { "id": "001-development-upgrade", "note": "曾误认：升级" }
+      ]
+    },
+    {
+      "term": "promote",
+      "meaning": "促进；推动",
+      "forms": ["promote", "promotes", "promoted"],
+      "examples": [],
+      "errors": []
+    },
+    {
+      "term": "strengthen",
+      "meaning": "加强；增强",
+      "forms": ["strengthen", "strengthens", "strengthened"],
+      "examples": ["The very discomfort we avoid is often what strengthens us."],
+      "errors": []
+    },
+    {
+      "term": "crucial",
+      "meaning": "至关重要的；关键的",
+      "forms": ["crucial"],
+      "examples": ["This adaptability is crucial for developing resilience."],
+      "errors": []
+    },
+    {
+      "term": "chronic",
+      "meaning": "长期的；慢性的",
+      "forms": ["chronic"],
+      "examples": ["Constant notifications and doom-scrolling heighten chronic stress."],
+      "errors": []
+    },
+    {
+      "term": "stifle",
+      "meaning": "抑制；阻碍；压制",
+      "forms": ["stifle", "stifles", "stifled"],
+      "examples": ["Chronic comfort, however, stifles this process."],
+      "errors": []
+    },
+    {
+      "term": "adaptable",
+      "meaning": "适应性强的",
+      "forms": ["adaptable", "adaptability"],
+      "examples": ["Chronic comfort leads to a less adaptable and more fragile mind."],
+      "errors": []
+    },
+    {
+      "term": "evident",
+      "meaning": "明显的",
+      "forms": ["evident"],
+      "examples": ["Nowhere is our discomfort with discomfort more evident than in our inability to tolerate boredom."],
+      "errors": []
+    },
+    {
+      "term": "tolerate",
+      "meaning": "忍受；容忍",
+      "forms": ["tolerate", "tolerating"],
+      "examples": ["Nowhere is our discomfort with discomfort more evident than in our inability to tolerate boredom."],
+      "errors": []
+    },
+    {
+      "term": "dismiss",
+      "meaning": "不予重视；认为不值得理会",
+      "forms": ["dismiss", "dismissed", "dismisses"],
+      "examples": ["It's often dismissed as an annoyance."],
+      "errors": []
+    },
+    {
+      "term": "annoyance",
+      "meaning": "令人烦恼的东西；烦恼",
+      "forms": ["annoyance", "annoyances"],
+      "examples": ["It's often dismissed as an annoyance."],
+      "errors": []
+    },
+    {
+      "term": "spark",
+      "meaning": "激发；引发",
+      "forms": ["spark", "sparks", "sparked"],
+      "examples": ["Boredom sparks creativity and problem-solving."],
+      "errors": []
+    },
+    {
+      "term": "growth mindset",
+      "meaning": "成长型思维",
+      "forms": ["growth mindset"],
+      "examples": ["This aligns with the concept of a growth mindset."],
+      "errors": []
+    },
+    {
+      "term": "emphasize",
+      "meaning": "强调",
+      "forms": ["emphasize", "emphasizes", "emphasized"],
+      "examples": ["The concept emphasizes that abilities can be developed through dedication and hard work."],
+      "errors": [
+        { "id": "001-emphasize-ensure", "note": "曾与 ensure（确保）混淆" }
+      ]
+    },
+    {
+      "term": "urge",
+      "meaning": "冲动；强烈欲望",
+      "forms": ["urge", "urges"],
+      "examples": ["When we resist the urge to scroll, we give our minds space to wander and innovate."],
+      "errors": [
+        { "id": "001-urge-argue", "note": "曾与 argue（争论）混淆" }
+      ]
+    },
+    {
+      "term": "scroll",
+      "meaning": "滑动屏幕；刷内容",
+      "forms": ["scroll", "scrolling"],
+      "examples": ["When we resist the urge to scroll, we give our minds space to wander and innovate."],
+      "errors": []
+    },
+    {
+      "term": "wander",
+      "meaning": "漫游；游走",
+      "forms": ["wander", "wanders", "wandered"],
+      "examples": ["We give our minds space to wander and innovate."],
+      "errors": []
+    },
+    {
+      "term": "innovate",
+      "meaning": "创新",
+      "forms": ["innovate", "innovates", "innovated"],
+      "examples": ["We give our minds space to wander and innovate."],
+      "errors": []
+    },
+    {
+      "term": "intentional",
+      "meaning": "有意识的；主动安排的",
+      "forms": ["intentional"],
+      "examples": ["The solution is to balance comfort with intentional discomfort."],
+      "errors": []
+    },
+    {
+      "term": "manageable",
+      "meaning": "可处理的；可承受的",
+      "forms": ["manageable"],
+      "examples": ["Think of it as a series of small, manageable challenges."],
+      "errors": []
+    },
+    {
+      "term": "tackle",
+      "meaning": "处理；着手解决；应对",
+      "forms": ["tackle", "tackles", "tackled"],
+      "examples": ["Whenever possible, tackle the hardest task first."],
+      "errors": []
+    },
+    {
+      "term": "workout",
+      "meaning": "锻炼；训练",
+      "forms": ["workout", "workouts"],
+      "examples": ["Tackle the hardest task first, whether it's a workout, a tough conversation, or deep work."],
+      "errors": []
+    },
+    {
+      "term": "exercise",
+      "meaning": "锻炼；练习",
+      "forms": ["exercise", "exercises"],
+      "examples": [],
+      "errors": [
+        { "id": "001-exercise-experience", "note": "曾误认成 experience（经历；经验）" }
+      ]
+    },
+    {
+      "term": "revolutionary",
+      "meaning": "革命性的；突破性的",
+      "forms": ["revolutionary"],
+      "examples": ["These small acts aren't revolutionary."],
+      "errors": []
+    },
+    {
+      "term": "reawaken",
+      "meaning": "重新唤醒",
+      "forms": ["reawaken", "reawakens", "reawakened"],
+      "examples": ["They're enough to reawaken the dormant resilience we've buried under layers of ease."],
+      "errors": []
+    },
+    {
+      "term": "dormant",
+      "meaning": "休眠的；沉睡的；暂时不活跃的",
+      "forms": ["dormant"],
+      "examples": ["They're enough to reawaken the dormant resilience we've buried under layers of ease."],
+      "errors": []
+    },
+    {
+      "term": "ease",
+      "meaning": "安逸；轻松；舒适",
+      "forms": ["ease"],
+      "examples": ["The next time you feel the pull of ease, pause."],
+      "errors": [
+        { "id": "001-ease-laziness", "note": "曾误认：懒惰；本文是安逸、轻松、舒适" }
+      ]
+    },
+    {
+      "term": "tempting",
+      "meaning": "诱人的",
+      "forms": ["tempting"],
+      "examples": ["Comfort, like sugar, is tempting but deceptive."],
+      "errors": []
+    },
+    {
+      "term": "deceptive",
+      "meaning": "具有迷惑性的；容易骗人的",
+      "forms": ["deceptive"],
+      "examples": ["Comfort, like sugar, is tempting but deceptive."],
+      "errors": []
+    },
+    {
+      "term": "sluggish",
+      "meaning": "迟缓的；无精打采的",
+      "forms": ["sluggish"],
+      "examples": ["It delivers an instant lift, only to leave us sluggish and unprepared in the long run."],
+      "errors": []
+    },
+    {
+      "term": "confront",
+      "meaning": "面对；直面",
+      "forms": ["confront", "confronts", "confronted"],
+      "examples": ["Discomfort pushes us to confront uncertainty."],
+      "errors": []
+    },
+    {
+      "term": "crucible",
+      "meaning": "坩埚；比喻严峻考验、磨炼场",
+      "forms": ["crucible", "crucibles"],
+      "examples": ["Discomfort, by contrast, is the crucible of growth."],
+      "errors": []
+    },
+    {
+      "term": "trait",
+      "meaning": "特质；特点",
+      "forms": ["trait", "traits"],
+      "examples": ["Resilience is not a trait you are born with, but a skill."],
+      "errors": [
+        { "id": "001-trait-talent", "note": "曾误认：天赋；trait 的范围更广" }
+      ]
+    },
+    {
+      "term": "momentary",
+      "meaning": "短暂的；一时的",
+      "forms": ["momentary"],
+      "examples": ["Is this momentary comfort helping me grow or is it keeping me stuck?"],
+      "errors": [
+        { "id": "001-momentary-timely", "note": "曾误译成“及时”；momentary comfort 是“短暂的 / 一时的舒适”" }
+      ]
+    },
+    {
+      "term": "stuck",
+      "meaning": "卡住的；陷住的；停滞不前的",
+      "forms": ["stuck"],
+      "examples": ["Is this momentary comfort helping me grow or is it keeping me stuck?"],
+      "errors": []
+    },
+    {
+      "term": "nowhere",
+      "meaning": "无处；在倒装结构中可强调某处最明显",
+      "forms": ["nowhere"],
+      "examples": ["Nowhere is our discomfort with discomfort more evident than in our inability to tolerate boredom."],
+      "errors": [
+        { "id": "001-nowhere-now", "note": "曾与 now（现在）混淆" }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "term": "can be traced to",
+      "meaning": "可以追溯到；可以归因于",
+      "forms": ["can be traced to"],
+      "examples": ["All of this can be traced to our growing dependence on digital crutches."],
+      "errors": []
+    },
+    {
+      "term": "at the expense of",
+      "meaning": "以牺牲……为代价",
+      "forms": ["at the expense of"],
+      "examples": ["They offer quick relief but often at the expense of deep, meaningful engagement."],
+      "errors": []
+    },
+    {
+      "term": "align with",
+      "meaning": "与……一致、相符、契合",
+      "forms": ["align with", "aligns with", "aligned with"],
+      "examples": ["This aligns with the concept of a growth mindset."],
+      "errors": [
+        { "id": "001-align-necessary", "note": "曾把 align with 的弱关系扩大成“是……必不可少的一部分”" }
+      ]
+    },
+    {
+      "term": "be ill-equipped to do",
+      "meaning": "缺乏做……的准备或能力",
+      "forms": ["ill equipped to navigate", "ill-equipped to navigate"],
+      "examples": ["Our reliance on comfort-driven technologies has left us ill-equipped to navigate life without them."],
+      "errors": []
+    },
+    {
+      "term": "navigate life",
+      "meaning": "应对生活",
+      "forms": ["navigate life"],
+      "examples": ["Our reliance on comfort-driven technologies has left us ill-equipped to navigate life without them."],
+      "errors": []
+    },
+    {
+      "term": "play an important role in",
+      "meaning": "在……中发挥重要作用",
+      "forms": ["play an important role in", "plays an important role in"],
+      "examples": [],
+      "errors": []
+    },
+    {
+      "term": "rather than",
+      "meaning": "而不是",
+      "forms": ["rather than"],
+      "examples": ["View stress as a challenge rather than a threat."],
+      "errors": []
+    },
+    {
+      "term": "resist the urge to do",
+      "meaning": "忍住做……的冲动",
+      "forms": ["resist the urge to scroll"],
+      "examples": ["When we resist the urge to scroll, we give our minds space to wander and innovate."],
+      "errors": []
+    },
+    {
+      "term": "whenever possible",
+      "meaning": "只要有可能；条件允许时",
+      "forms": ["whenever possible"],
+      "examples": ["Whenever possible, tackle the hardest task first."],
+      "errors": []
+    },
+    {
+      "term": "in the long run",
+      "meaning": "从长远来看",
+      "forms": ["in the long run"],
+      "examples": ["It delivers an instant lift, only to leave us sluggish and unprepared in the long run."],
+      "errors": []
+    },
+    {
+      "term": "by contrast",
+      "meaning": "相比之下；与此相反",
+      "forms": ["by contrast"],
+      "examples": ["Discomfort, by contrast, is the crucible of growth."],
+      "errors": []
+    },
+    {
+      "term": "be born with",
+      "meaning": "与生俱来",
+      "forms": ["born with"],
+      "examples": ["Resilience is not a trait you are born with, but a skill."],
+      "errors": []
+    },
+    {
+      "term": "keep sb stuck",
+      "meaning": "让某人一直困在原地；停滞不前",
+      "forms": ["keeping me stuck", "keep us stuck"],
+      "examples": ["Is this momentary comfort helping me grow or is it keeping me stuck?"],
+      "errors": []
+    },
+    {
+      "term": "digital crutches",
+      "meaning": "数字化“拐杖”；过度依赖的数字工具",
+      "forms": ["digital crutches"],
+      "examples": ["All of this can be traced to our growing dependence on digital crutches."],
+      "errors": []
+    }
+  ],
+  "sentences": [
+    {
+      "term": "leave + O + C",
+      "meaning": "使……处于某种状态",
+      "forms": ["leaving us ill equipped", "leaving us ill-equipped", "leave us sluggish and unprepared"],
+      "examples": ["Our reliance on comfort-driven technologies has created a fragile foundation, leaving us ill-equipped to navigate life without them.", "It delivers an instant lift, only to leave us sluggish and unprepared in the long run."],
+      "errors": []
+    },
+    {
+      "term": "V-ing 表结果",
+      "meaning": "前面的事情导致后面的结果",
+      "forms": ["leading to a less adaptable", "pushing us to confront"],
+      "examples": ["Chronic comfort stifles this process, leading to a less adaptable and more fragile mind.", "Discomfort is the crucible of growth, pushing us to confront uncertainty."],
+      "errors": []
+    },
+    {
+      "term": "Nowhere is X more evident than in Y",
+      "meaning": "X 在 Y 中体现得最明显；否定副词置前引起倒装",
+      "forms": ["nowhere is our discomfort with discomfort more evident than in"],
+      "examples": ["Nowhere is our discomfort with discomfort more evident than in our inability to tolerate boredom."],
+      "errors": []
+    },
+    {
+      "term": "not A, but B",
+      "meaning": "不是 A，而是 B",
+      "forms": ["not a trait you are born with but a skill", "not a trait you are born with, but a skill"],
+      "examples": ["Resilience is not a trait you are born with, but a skill that can be developed through intentional practice."],
+      "errors": []
+    },
+    {
+      "term": "only to do",
+      "meaning": "结果却……；最后却……",
+      "forms": ["only to leave us"],
+      "examples": ["It delivers an instant lift, only to leave us sluggish and unprepared in the long run."],
+      "errors": []
+    },
+    {
+      "term": "the next time + 句子",
+      "meaning": "下次当……的时候",
+      "forms": ["the next time you feel"],
+      "examples": ["The next time you feel the pull of ease, pause."],
+      "errors": []
+    },
+    {
+      "term": "may / can / often / tend to",
+      "meaning": "保留可能性或倾向性的语气强度，不能升级成必然",
+      "forms": ["may provide"],
+      "examples": ["Social media may provide momentary comfort, but it can also keep us stuck."],
+      "errors": [
+        { "id": "001-modal-strength", "note": "翻译时曾吞掉 may，把“可能”无意识升级成“一定”" }
+      ]
+    }
+  ]
+}

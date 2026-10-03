@@ -1,0 +1,428 @@
+[
+  {
+    "term": "align with",
+    "meaning": "与……一致、相符、契合",
+    "meanings": [],
+    "forms": [
+      "align with",
+      "aligns with",
+      "aligned with"
+    ],
+    "appearances": 1,
+    "errorCount": 1,
+    "errors": [
+      {
+        "id": "001-align-necessary",
+        "note": "曾把 align with 的弱关系扩大成“是……必不可少的一部分”",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "This aligns with the concept of a growth mindset.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "at the expense of",
+    "meaning": "以牺牲……为代价",
+    "meanings": [],
+    "forms": [
+      "at the expense of"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "They offer quick relief but often at the expense of deep, meaningful engagement.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "be born with",
+    "meaning": "与生俱来",
+    "meanings": [],
+    "forms": [
+      "born with"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Resilience is not a trait you are born with, but a skill.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "be ill-equipped to do",
+    "meaning": "缺乏做……的准备或能力",
+    "meanings": [],
+    "forms": [
+      "ill equipped to navigate",
+      "ill-equipped to navigate"
+    ],
+    "appearances": 2,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Our reliance on comfort-driven technologies has left us ill-equipped to navigate life without them.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "term": "by contrast",
+    "meaning": "相比之下；与此相反",
+    "meanings": [],
+    "forms": [
+      "by contrast"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Discomfort, by contrast, is the crucible of growth.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "can be traced to",
+    "meaning": "可以追溯到；可以归因于",
+    "meanings": [],
+    "forms": [
+      "can be traced to"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "All of this can be traced to our growing dependence on digital crutches.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "digital crutches",
+    "meaning": "数字化“拐杖”；过度依赖的数字工具",
+    "meanings": [],
+    "forms": [
+      "digital crutches"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "All of this can be traced to our growing dependence on digital crutches.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "in the long run",
+    "meaning": "从长远来看",
+    "meanings": [],
+    "forms": [
+      "in the long run"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "It delivers an instant lift, only to leave us sluggish and unprepared in the long run.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "keep sb stuck",
+    "meaning": "让某人一直困在原地；停滞不前",
+    "meanings": [],
+    "forms": [
+      "keeping me stuck",
+      "keep us stuck"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Is this momentary comfort helping me grow or is it keeping me stuck?",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "navigate life",
+    "meaning": "应对生活",
+    "meanings": [],
+    "forms": [
+      "navigate life"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Our reliance on comfort-driven technologies has left us ill-equipped to navigate life without them.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "play an important role in",
+    "meaning": "在……中发挥重要作用",
+    "meanings": [],
+    "forms": [
+      "play an important role in",
+      "plays an important role in"
+    ],
+    "appearances": 0,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "term": "rather than",
+    "meaning": "而不是",
+    "meanings": [],
+    "forms": [
+      "rather than"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "View stress as a challenge rather than a threat.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "resist the urge to do",
+    "meaning": "忍住做……的冲动",
+    "meanings": [],
+    "forms": [
+      "resist the urge to scroll"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "When we resist the urge to scroll, we give our minds space to wander and innovate.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "whenever possible",
+    "meaning": "只要有可能；条件允许时",
+    "meanings": [],
+    "forms": [
+      "whenever possible"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Whenever possible, tackle the hardest task first.",
+        "articleId": 1,
+        "articleTitle": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort"
+      }
+    ],
+    "sources": [
+      {
+        "id": 1,
+        "title": "Comfort & Discomfort",
+        "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  }
+]
