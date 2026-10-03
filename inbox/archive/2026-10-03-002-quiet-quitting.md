@@ -1,14 +1,4 @@
----
-id: 2
-title: Quiet Quitting
-slug: quiet-quitting
-topic: 社会与民生
-date: 2026-10-03
-score: 4/5
-draft: false
----
-
-# Quiet Quitting
+# 英语一精读 02｜Quiet Quitting
 
 ## 文章主线
 
@@ -186,7 +176,6 @@ even as：即使、尽管 B 正在发生，A 仍然……；常用于两个趋�
 遇到每个词都认识但拼起来很怪时，先问：它是不是一个固定搭配？
 
 2. 抽象义比字面义更容易卡住：vehicle、validate、diagnosis、data point、novel。
-
 3. 陌生词后容易补剧情：曾把 labor force、hours worked、work was dead 拼成“黑心公司、强迫劳动、好工作消失”，这些内容原文都没有。问自己：“这是原文给我的信息，还是我自己脑补出来的？”
 4. 句法主干不是主要短板；that 从句、who 从句、比较结构、not A but B、时间结构基本能抓住。重点是高频词抽象义、固定词块和逻辑关系。
 

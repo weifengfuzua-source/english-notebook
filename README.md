@@ -121,5 +121,4 @@ git push -u origin main
 ## 当前内容状态
 
 - `001 Comfort & Discomfort`：完整内容，参与展示和统计。
-- `002 Quiet Quitting`：仅有等待原始精读总结的草稿壳，`draft: true`，不参与展示或统计。
-
+- `002 Quiet Quitting`：按用户提供的照片原文和精读总结整理，成绩 4/5，参与展示和统计。

@@ -50,13 +50,13 @@ export function serializeFrontMatter(data, body) {
 
 export function canonicalSection(title) {
   const key = title.replace(/[一二三四五六七八九十0-9、.．｜|:：\s～~-]/g, "").toLowerCase();
+  if (/逻辑关系/.test(key)) return "logic";
   if (/(文章)?原文|全文|original/.test(key)) return "original";
   if (/主线|主旨|核心逻辑|文章逻辑|概览/.test(key)) return "summary";
   if (/错题|错误|误认|错因|复盘/.test(key)) return "mistakes";
   if (/重点词汇|熟词僻义|单词|词汇/.test(key)) return "vocabulary";
   if (/词组|词块|固定搭配|高价值表达|必须整块/.test(key)) return "phrases";
   if (/句式|结构|长难句/.test(key)) return "sentences";
-  if (/逻辑关系/.test(key)) return "logic";
   if (/薄弱点|提醒/.test(key)) return "weaknesses";
   if (/最值得背|速记|总结/.test(key)) return "takeaways";
   return "other";

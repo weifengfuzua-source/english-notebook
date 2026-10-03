@@ -40,7 +40,7 @@ function sectionize(raw) {
   };
   for (const line of lines) {
     const markdown = line.match(/^#{1,3}\s+(.+?)\s*$/)?.[1];
-    const chinese = line.match(/^(?:[一二三四五六七八九十]+|\d+)[、.．]\s*(.+?)\s*$/)?.[1];
+    const chinese = line.match(/^[一二三四五六七八九十]+[、.．]\s*(.+?)\s*$/)?.[1];
     const candidate = markdown || chinese;
     if (candidate && canonicalSection(candidate) !== "other") {
       push();
@@ -74,11 +74,11 @@ function cleanLine(line) {
     .trim();
 }
 
-const ERROR_PATTERN = /曾误成|误成|曾误认|误认成|曾误译|误译成|错译成|之前.{0,12}(?:当成|翻成|理解成)|我.{0,10}(?:翻成|理解成)/;
+const ERROR_PATTERN = /没认出|未认出|曾误成|误成|曾误认|误认成|曾误译|误译成|错译成|之前.{0,12}(?:当成|翻成|理解成)|我.{0,10}(?:翻成|理解成)/;
 
 function parseEntryStart(line, kind) {
   const cleaned = cleanLine(line);
-  const arrow = cleaned.match(/^([A-Za-z][A-Za-z'()+/\s.-]{0,72}?)\s*(?:→|=|:|：)\s*(.+)$/);
+  const arrow = cleaned.match(/^([A-Za-z][A-Za-z'(),+/\s.-]{0,72}?)\s*(?:→|=|:|：)\s*(.+)$/);
   if (arrow && arrow[1].trim().split(/\s+/).length <= 9) return { term: arrow[1].trim(), meaning: arrow[2].trim() };
   const numbered = cleaned.match(/^([A-Za-z][A-Za-z'()+/\s.-]{0,72})$/);
   if (numbered && numbered[1].trim().split(/\s+/).length <= (kind === "sentences" ? 12 : 8)) return { term: numbered[1].trim(), meaning: "" };

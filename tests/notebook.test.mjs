@@ -31,4 +31,5 @@ test("front matter and flexible section aliases remain lightweight", () => {
   assert.equal(parsed.data.draft, true);
   assert.equal(canonicalSection("本篇暴露的新薄弱点"), "weaknesses");
   assert.equal(canonicalSection("必须整块认识的词组"), "phrases");
+  assert.equal(canonicalSection("全文最重要的逻辑关系"), "logic");
 });

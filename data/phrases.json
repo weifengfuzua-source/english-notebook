@@ -40,6 +40,53 @@
     ]
   },
   {
+    "term": "all-time high",
+    "meaning": "历史最高点、历史最高水平",
+    "meanings": [],
+    "forms": [
+      "all-time high",
+      "all-time highs"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "as a cultural phenomenon",
+    "meaning": "作为一种文化现象",
+    "meanings": [],
+    "forms": [
+      "as a cultural phenomenon"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
     "term": "at the expense of",
     "meaning": "以牺牲……为代价",
     "meanings": [],
@@ -131,6 +178,59 @@
     ]
   },
   {
+    "term": "be reduced to",
+    "meaning": "被简化为、被归结为",
+    "meanings": [],
+    "forms": [
+      "be reduced to"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Complex questions such as “Am I running my team effectively?” can be reduced to the confident diagnosis that young people just don’t want to work.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "blame A for B",
+    "meaning": "因 B 责怪 A、把 B 归咎于 A",
+    "meanings": [],
+    "forms": [
+      "blame A for B"
+    ],
+    "appearances": 0,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 0
+      }
+    ]
+  },
+  {
     "term": "by contrast",
     "meaning": "相比之下；与此相反",
     "meanings": [],
@@ -191,6 +291,84 @@
     ]
   },
   {
+    "term": "coin a term / phrase",
+    "meaning": "创造一个新词、新说法",
+    "meanings": [],
+    "forms": [
+      "coin a term",
+      "coin a phrase"
+    ],
+    "appearances": 0,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "term": "data point",
+    "meaning": "数据点；本文为值得观察的事实、证据点",
+    "meanings": [],
+    "forms": [
+      "data point"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "If quiet quitting is fake, the popularity of anti-work neologisms is its own data point that deserves to be taken seriously as a cultural phenomenon.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "delivery mechanism",
+    "meaning": "传递机制、输送渠道",
+    "meanings": [],
+    "forms": [
+      "delivery mechanism",
+      "delivery mechanisms"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
     "term": "digital crutches",
     "meaning": "数字化“拐杖”；过度依赖的数字工具",
     "meanings": [],
@@ -216,6 +394,90 @@
         "id": 1,
         "title": "Comfort & Discomfort",
         "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "disinclination to do",
+    "meaning": "不愿做某事",
+    "meanings": [],
+    "forms": [
+      "disinclination to work"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "emotional truth",
+    "meaning": "情绪体验层面的真实",
+    "meanings": [],
+    "forms": [
+      "emotional truth"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "hours worked",
+    "meaning": "工作时长、总工时",
+    "meanings": [],
+    "forms": [
+      "hours worked"
+    ],
+    "appearances": 1,
+    "errorCount": 1,
+    "errors": [
+      {
+        "id": "002-hours-worked-6bf6c51f",
+        "note": "曾误成：小时工",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "The labor force, total jobs, and hours worked increased throughout a period of time when news organizations were telling everybody that work was dead.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
         "count": 1
       }
     ]
@@ -282,6 +544,67 @@
     ]
   },
   {
+    "term": "labor force",
+    "meaning": "劳动力、劳动力人口",
+    "meanings": [],
+    "forms": [
+      "labor force"
+    ],
+    "appearances": 1,
+    "errorCount": 1,
+    "errors": [
+      {
+        "id": "002-labor-force-e51900e0",
+        "note": "曾误成：强迫劳动",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "The labor force, total jobs, and hours worked increased throughout a period of time when news organizations were telling everybody that work was dead.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "make one's way into headlines",
+    "meaning": "登上新闻头条、进入公众视野",
+    "meanings": [],
+    "forms": [
+      "made its way into headlines"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
     "term": "navigate life",
     "meaning": "应对生活",
     "meanings": [],
@@ -332,6 +655,29 @@
         "title": "Comfort & Discomfort",
         "slug": "comfort-and-discomfort",
         "count": 0
+      }
+    ]
+  },
+  {
+    "term": "quiet quitting",
+    "meaning": "静默离职；仍在工作，但不再让工作占据全部生活",
+    "meanings": [],
+    "forms": [
+      "quiet quitting"
+    ],
+    "appearances": 6,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 6
       }
     ]
   },
@@ -391,6 +737,220 @@
         "id": 1,
         "title": "Comfort & Discomfort",
         "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "stand in for",
+    "meaning": "代替、充当……的替代品",
+    "meanings": [],
+    "forms": [
+      "stand in for"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Quiet quitting is a bit of novel nonsense that might stand in for chronic labor issues such as the underrepresentation of unions or a profound American pressure to be careerist.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "statistical truth",
+    "meaning": "统计数据层面的事实",
+    "meanings": [],
+    "forms": [
+      "statistical truth"
+    ],
+    "appearances": 0,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "term": "surge to all-time highs",
+    "meaning": "飙升至历史最高水平",
+    "meanings": [],
+    "forms": [
+      "surged to all-time highs"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "take off",
+    "meaning": "迅速流行、走红",
+    "meanings": [],
+    "forms": [
+      "take off",
+      "taken off",
+      "takes off"
+    ],
+    "appearances": 2,
+    "errorCount": 1,
+    "errors": [
+      {
+        "id": "002-take-off-6a3928a6",
+        "note": "曾误成：被取代",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "The term has taken off in part because burned-out or bored workers are simply desperate for a fresh vocabulary to describe their feelings.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      },
+      {
+        "text": "When a phrase takes off, it’s often because the new words fill a space of uncertainty, like the coining of a new diagnosis.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "term": "take sth seriously",
+    "meaning": "认真对待某事",
+    "meanings": [],
+    "forms": [
+      "taken seriously"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "the claim / diagnosis that...",
+    "meaning": "“……”这一说法、判断",
+    "meanings": [],
+    "forms": [
+      "diagnosis that"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "throughout a period",
+    "meaning": "在整个时期内",
+    "meanings": [],
+    "forms": [
+      "throughout a period"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "validate someone's view",
+    "meaning": "给某人的观点背书",
+    "meanings": [],
+    "forms": [
+      "validate managers"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
         "count": 1
       }
     ]

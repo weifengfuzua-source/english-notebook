@@ -87,13 +87,84 @@
     ]
   },
   {
+    "term": "calorie",
+    "meaning": "卡路里、热量",
+    "meanings": [],
+    "forms": [
+      "calorie"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "careerist",
+    "meaning": "事业至上的、过度追求职业晋升的人",
+    "meanings": [],
+    "forms": [
+      "careerist"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "cheeky",
+    "meaning": "俏皮大胆的、带点调侃或冒犯意味的",
+    "meanings": [],
+    "forms": [
+      "cheeky"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
     "term": "chronic",
     "meaning": "长期的；慢性的",
-    "meanings": [],
+    "meanings": [
+      "长期的、慢性的；chronic labor issues = 长期存在的劳工问题"
+    ],
     "forms": [
       "chronic"
     ],
-    "appearances": 2,
+    "appearances": 3,
     "errorCount": 0,
     "errors": [],
     "topics": [
@@ -105,6 +176,12 @@
         "articleId": 1,
         "articleTitle": "Comfort & Discomfort",
         "slug": "comfort-and-discomfort"
+      },
+      {
+        "text": "Quiet quitting is a bit of novel nonsense that might stand in for chronic labor issues such as the underrepresentation of unions or a profound American pressure to be careerist.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
       }
     ],
     "sources": [
@@ -113,6 +190,35 @@
         "title": "Comfort & Discomfort",
         "slug": "comfort-and-discomfort",
         "count": 2
+      },
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "claim",
+    "meaning": "说法、主张、断言；不要机械翻成声明",
+    "meanings": [],
+    "forms": [
+      "claim"
+    ],
+    "appearances": 0,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 0
       }
     ]
   },
@@ -341,6 +447,59 @@
     ]
   },
   {
+    "term": "diagnosis",
+    "meaning": "诊断；抽象义为判断、结论",
+    "meanings": [],
+    "forms": [
+      "diagnosis"
+    ],
+    "appearances": 2,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Complex questions such as “Am I running my team effectively?” can be reduced to the confident diagnosis that young people just don’t want to work.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "term": "disinclination",
+    "meaning": "不愿意、缺乏意愿；dis- 表示否定",
+    "meanings": [],
+    "forms": [
+      "disinclination"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
     "term": "dismiss",
     "meaning": "不予重视；认为不值得理会",
     "meanings": [],
@@ -368,6 +527,36 @@
         "id": 1,
         "title": "Comfort & Discomfort",
         "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "divergence",
+    "meaning": "分歧、背离、分叉",
+    "meanings": [],
+    "forms": [
+      "divergence"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "The popularity of these empty-calorie labor trends suggests a divergence between statistical and deeper emotional truth.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
         "count": 1
       }
     ]
@@ -481,6 +670,36 @@
     ]
   },
   {
+    "term": "empty-calorie",
+    "meaning": "原指热量高但营养少；本文比喻热闹但实际解释力低",
+    "meanings": [],
+    "forms": [
+      "empty-calorie"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "The popularity of these empty-calorie labor trends suggests a divergence between statistical and deeper emotional truth.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
     "term": "engagement",
     "meaning": "参与；投入；互动",
     "meanings": [],
@@ -539,6 +758,36 @@
         "title": "Comfort & Discomfort",
         "slug": "comfort-and-discomfort",
         "count": 1
+      }
+    ]
+  },
+  {
+    "term": "evidence",
+    "meaning": "证据、依据；little evidence = 几乎没有；a little evidence = 有一点",
+    "meanings": [],
+    "forms": [
+      "evidence"
+    ],
+    "appearances": 2,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "The best evidence they had wasn’t evidence at all, but rather a misunderstanding of government data.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 2
       }
     ]
   },
@@ -660,6 +909,52 @@
         "id": 1,
         "title": "Comfort & Discomfort",
         "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "inclination",
+    "meaning": "倾向、意愿",
+    "meanings": [],
+    "forms": [
+      "inclination"
+    ],
+    "appearances": 0,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "term": "inexpressible",
+    "meaning": "难以表达的、难以言表的",
+    "meanings": [],
+    "forms": [
+      "inexpressible"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
         "count": 1
       }
     ]
@@ -826,6 +1121,30 @@
     ]
   },
   {
+    "term": "neologism",
+    "meaning": "新词、新造词、新表达",
+    "meanings": [],
+    "forms": [
+      "neologism",
+      "neologisms"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
     "term": "neuroplasticity",
     "meaning": "神经可塑性",
     "meanings": [],
@@ -882,6 +1201,36 @@
         "title": "Comfort & Discomfort",
         "slug": "comfort-and-discomfort",
         "count": 1
+      }
+    ]
+  },
+  {
+    "term": "novel",
+    "meaning": "名词小说；形容词新颖的、新出现的",
+    "meanings": [],
+    "forms": [
+      "novel"
+    ],
+    "appearances": 2,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "As a workplace phenomenon, workers’ mild disengagement is about as novel as lunch breaks, and bleary-eyed colleagues stopping by your workstation to mutter.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 2
       }
     ]
   },
@@ -1012,6 +1361,29 @@
     ]
   },
   {
+    "term": "quasi-",
+    "meaning": "准……、所谓的、类似但并不完全是",
+    "meanings": [],
+    "forms": [
+      "quasi"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
     "term": "reawaken",
     "meaning": "重新唤醒",
     "meanings": [],
@@ -1039,6 +1411,29 @@
         "id": 1,
         "title": "Comfort & Discomfort",
         "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "reclaim",
+    "meaning": "重新夺回、找回；reclaim their soul = 找回自我",
+    "meanings": [],
+    "forms": [
+      "reclaim"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
         "count": 1
       }
     ]
@@ -1259,6 +1654,30 @@
     ]
   },
   {
+    "term": "slacker",
+    "meaning": "懒散的人、混日子的人、摸鱼的人",
+    "meanings": [],
+    "forms": [
+      "slacker",
+      "slackers"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
     "term": "sluggish",
     "meaning": "迟缓的；无精打采的",
     "meanings": [],
@@ -1411,6 +1830,37 @@
         "title": "Comfort & Discomfort",
         "slug": "comfort-and-discomfort",
         "count": 1
+      }
+    ]
+  },
+  {
+    "term": "surge",
+    "meaning": "激增、飙升",
+    "meanings": [],
+    "forms": [
+      "surge",
+      "surged"
+    ],
+    "appearances": 2,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Labor productivity is falling after it surged in the first year of the pandemic.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 2
       }
     ]
   },
@@ -1578,6 +2028,75 @@
     ]
   },
   {
+    "term": "trend-chasing",
+    "meaning": "追热点的、追逐潮流的",
+    "meanings": [],
+    "forms": [
+      "trend-chasing"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "underrepresentation",
+    "meaning": "代表性不足；under- = 不足，representation = 代表性",
+    "meanings": [],
+    "forms": [
+      "underrepresentation"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "unnameable",
+    "meaning": "难以命名的、难以准确说清的",
+    "meanings": [],
+    "forms": [
+      "unnameable"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
     "term": "urge",
     "meaning": "冲动；强烈欲望",
     "meanings": [],
@@ -1612,6 +2131,75 @@
         "id": 1,
         "title": "Comfort & Discomfort",
         "slug": "comfort-and-discomfort",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "validate",
+    "meaning": "验证；本文为证实某人的看法、给观点背书",
+    "meanings": [],
+    "forms": [
+      "validate"
+    ],
+    "appearances": 1,
+    "errorCount": 1,
+    "errors": [
+      {
+        "id": "002-validate-unrecognized",
+        "note": "最开始没认出 validate managers 的语境义，导致人物关系漂移；第7题选 A，正确为 D。",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "But realistically, the term is more likely to validate managers who think that their employees are slackers than to help ordinary workers reclaim their soul.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "vehicle",
+    "meaning": "车辆；抽象义为载体、媒介",
+    "meanings": [],
+    "forms": [
+      "vehicle",
+      "vehicles"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Put another way, these quasi-trends are bad-vibe vehicles—delivery mechanisms for inexpressible negative ideas about the world that demand the news-headline treatment.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
         "count": 1
       }
     ]

@@ -1,5 +1,65 @@
 [
   {
+    "term": "be more likely to A than to B",
+    "meaning": "与其说 B，不如说更可能 A；比较两个可能性",
+    "meanings": [],
+    "forms": [
+      "more likely to validate managers who think that their employees are slackers than to help ordinary workers reclaim their soul"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "But realistically, the term is more likely to validate managers who think that their employees are slackers than to help ordinary workers reclaim their soul.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "term": "even as",
+    "meaning": "即使、尽管 B 正在发生，A 仍然……；常用于两个趋势相反",
+    "meanings": [],
+    "forms": [
+      "even as"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Earlier this year, several outlets tried to convince Americans that “no one wants to work”, even as the economy added hundreds of thousands of jobs each month.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
+      }
+    ]
+  },
+  {
     "term": "leave + O + C",
     "meaning": "使……处于某种状态",
     "meanings": [],
@@ -72,6 +132,59 @@
         "title": "Comfort & Discomfort",
         "slug": "comfort-and-discomfort",
         "count": 0
+      }
+    ]
+  },
+  {
+    "term": "no less A than B",
+    "meaning": "A 并不比 B 少、弱；总结例句不在照片原文中，原文计数为0",
+    "meanings": [],
+    "forms": [
+      "no less"
+    ],
+    "appearances": 0,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "term": "not A at all, but rather B",
+    "meaning": "根本不是 A，而其实是 B；强否定加修正",
+    "meanings": [],
+    "forms": [
+      "wasn’t evidence at all, but rather a misunderstanding"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "The best evidence they had wasn’t evidence at all, but rather a misunderstanding of government data.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
       }
     ]
   },
@@ -230,6 +343,36 @@
         "title": "Comfort & Discomfort",
         "slug": "comfort-and-discomfort",
         "count": 2
+      }
+    ]
+  },
+  {
+    "term": "名词 + that 从句",
+    "meaning": "that 从句解释前面名词的具体内容",
+    "meanings": [],
+    "forms": [
+      "diagnosis that young people just don’t want to work"
+    ],
+    "appearances": 1,
+    "errorCount": 0,
+    "errors": [],
+    "topics": [
+      "社会与民生"
+    ],
+    "examples": [
+      {
+        "text": "Complex questions such as “Am I running my team effectively?” can be reduced to the confident diagnosis that young people just don’t want to work.",
+        "articleId": 2,
+        "articleTitle": "Quiet Quitting",
+        "slug": "quiet-quitting"
+      }
+    ],
+    "sources": [
+      {
+        "id": 2,
+        "title": "Quiet Quitting",
+        "slug": "quiet-quitting",
+        "count": 1
       }
     ]
   }
