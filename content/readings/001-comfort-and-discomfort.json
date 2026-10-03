@@ -1,0 +1,298 @@
+{
+  "articleId": 1,
+  "groups": [
+    {"id":1,"title":"舒适依赖"},
+    {"id":2,"title":"数字化“拐杖”"},
+    {"id":3,"title":"便利的代价"},
+    {"id":4,"title":"不适与韧性"},
+    {"id":5,"title":"给无聊留一点空间"},
+    {"id":6,"title":"可承受的小挑战"},
+    {"id":7,"title":"短期舒适与长期成长"},
+    {"id":8,"title":"可以培养的技能"}
+  ],
+  "units": [
+    {
+      "id":"01","group":1,
+      "english":"Our reliance on comfort-driven technologies has created a fragile foundation, leaving us ill-equipped to navigate life without them.",
+      "translation":"我们对以舒适为导向的技术的依赖，造就了一个脆弱的基础，使我们缺乏在没有这些技术时应对生活的能力。",
+      "annotations":[
+        {"text":"reliance on","type":"phrase","meaning":"对……的依赖","context":"对以舒适为导向的技术的依赖","note":"reliance on ≈ dependence on；on 后面接依赖的对象。"},
+        {"text":"fragile","type":"vocabulary","meaning":"脆弱的","context":"a fragile foundation = 一个脆弱的基础","note":"这里修饰 foundation，指这种基础不稳固。"},
+        {"text":"ill-equipped","type":"phrase","meaning":"缺乏准备或能力的","context":"ill-equipped to navigate life = 缺乏应对生活的能力","note":"be ill-equipped to do；leaving us + 状态，表示使我们处于这种状态。"},
+        {"text":"navigate life","type":"phrase","meaning":"应对生活","context":"在没有这些技术时应对生活","note":"navigate 本义为导航，抽象义为处理复杂情况。"}
+      ]
+    },
+    {
+      "id":"02","group":1,
+      "english":"Burnout, once a rarity, has become nearly universal.",
+      "translation":"职业倦怠曾经很少见，如今已变得几乎普遍存在。",
+      "annotations":[]
+    },
+    {
+      "id":"03","group":2,
+      "english":"All of this can be traced to our growing dependence on digital crutches - social media, instant entertainment, algorithm-driven distractions - designed to offer quick relief but often at the expense of deep, meaningful engagement.",
+      "translation":"这一切都可以追溯到我们对数字化“拐杖”日益增长的依赖——社交媒体、即时娱乐和算法驱动的分心内容。这些东西旨在带来快速缓解，却往往以牺牲深入而有意义的投入为代价。",
+      "annotations":[
+        {"text":"can be traced to","type":"phrase","meaning":"可以追溯到；可以归因于","context":"这一切都可以归因于日益增长的依赖","note":"A can be traced to B：结果 A ← 原因 B；保留 can 的“可以”。"},
+        {"text":"digital crutches","type":"phrase","meaning":"数字化“拐杖”","context":"被依赖的社交媒体、即时娱乐等数字工具","note":"crutch 本义为拐杖；这里比喻依赖物。"},
+        {"text":"at the expense of","type":"phrase","meaning":"以牺牲……为代价","context":"以牺牲深入、有意义的投入为代价，换取快速缓解","note":"要整块识别；often = 往往，不能升级为总是如此。"},
+        {"text":"engagement","type":"vocabulary","meaning":"参与；投入；互动","context":"deep, meaningful engagement = 深入而有意义的投入","note":"这里不能机械地只译成“参与”。"}
+      ]
+    },
+    {
+      "id":"04","group":2,
+      "english":"Platforms engineered to capture our attention also rewire our stress response: constant notifications, doom-scrolling, and the pressure to curate an online identity all heighten chronic stress, reduce real-world coping mechanisms.",
+      "translation":"为吸引我们的注意力而设计的平台，也会改变我们的压力反应：不断出现的通知、不停刷负面内容，以及经营网络形象的压力，都会加剧慢性压力，削弱我们在现实世界中的应对机制。",
+      "annotations":[
+        {"text":"chronic","type":"vocabulary","meaning":"长期的；慢性的","context":"chronic stress = 慢性压力","note":"强调长期持续，而非一时出现。"}
+      ]
+    },
+    {
+      "id":"05","group":3,
+      "english":"Take GPS.",
+      "translation":"以 GPS 为例。",
+      "annotations":[]
+    },
+    {
+      "id":"06","group":3,
+      "english":"It has undeniably transformed how we travel, offering seamless navigation at our fingertips.",
+      "translation":"不可否认，它改变了我们的出行方式，让我们随手就能获得流畅的导航服务。",
+      "annotations":[
+        {"text":"seamless navigation","type":"phrase","meaning":"流畅、无缝衔接的导航","context":"随手可用的流畅导航服务","note":"seamless 描述使用过程顺畅。"}
+      ]
+    },
+    {
+      "id":"07","group":3,
+      "english":"But this convenience comes at a cost.",
+      "translation":"但这种便利是有代价的。",
+      "annotations":[]
+    },
+    {
+      "id":"08","group":3,
+      "english":"A 2020 study published in Scientific Reports found that frequent GPS users struggle more with self-guided navigation, relying less on their brain's natural wayfinding abilities.",
+      "translation":"2020 年发表在《Scientific Reports》上的一项研究发现，经常使用 GPS 的人更难自行导航，对大脑天然辨路能力的依赖也更少。",
+      "annotations":[]
+    },
+    {
+      "id":"09","group":3,
+      "english":"Over time, those who depended more on GPS showed a steeper decline in hippocampal-dependent spatial memory.",
+      "translation":"随着时间推移，更依赖 GPS 的人，其依赖海马体的空间记忆下降得更明显。",
+      "annotations":[]
+    },
+    {
+      "id":"10","group":3,
+      "english":"This suppression not only makes us prone to getting lost but also impairs memory and problem-solving skills, leading to broader cognitive decline.",
+      "translation":"这种抑制不仅使我们容易迷路，还会损害记忆和解决问题的能力，导致更广泛的认知能力下降。",
+      "annotations":[
+        {"text":"suppression","type":"vocabulary","meaning":"抑制；压制","context":"对前文所述天然辨路能力的抑制","note":"This 指向前面使用 GPS 时较少依靠大脑辨路能力的情况。"},
+        {"text":"prone to","label":"be prone to","type":"phrase","meaning":"容易……；有……倾向","context":"makes us prone to getting lost = 使我们容易迷路","note":"to 是介词，后接名词或 V-ing。"},
+        {"text":"impairs","label":"impair","type":"vocabulary","meaning":"损害；削弱","context":"损害记忆和解决问题的能力","note":"这里强调能力受损。"},
+        {"text":"cognitive","type":"vocabulary","meaning":"认知的","context":"cognitive decline = 认知能力下降","note":"leading to... 表示前述事情造成的结果。"}
+      ]
+    },
+    {
+      "id":"11","group":3,
+      "english":"Even our bodies aren't spared.",
+      "translation":"就连我们的身体也未能幸免。",
+      "annotations":[]
+    },
+    {
+      "id":"12","group":3,
+      "english":"Sedentary lifestyles, fueled by convenience technologies, contribute to rising rates of obesity, heart disease, and mental health challenges.",
+      "translation":"便利技术助长的久坐生活方式，是肥胖、心脏病和心理健康问题发生率上升的促成因素。",
+      "annotations":[
+        {"text":"contribute to","type":"phrase","meaning":"促成；对……有贡献","context":"促成这些健康问题发生率的上升","note":"不表示唯一原因，也不表示彻底决定结果。"}
+      ]
+    },
+    {
+      "id":"13","group":4,
+      "english":"The problem is that the very discomfort we avoid is often what strengthens us.",
+      "translation":"问题在于，我们所回避的那种不适，往往正是让我们变得更强的东西。",
+      "annotations":[
+        {"text":"strengthens","label":"strengthen","type":"vocabulary","meaning":"加强；增强","context":"使我们变得更强","note":"often = 往往；原文没有说任何不适都必然让人变强。"}
+      ]
+    },
+    {
+      "id":"14","group":4,
+      "english":"Just as physical muscles grow through resistance, mental resilience builds through effort.",
+      "translation":"正如身体肌肉通过对抗阻力而增长，心理韧性也通过努力而增强。",
+      "annotations":[
+        {"text":"resilience","type":"vocabulary","meaning":"韧性；抗挫、恢复和适应能力","context":"mental resilience = 心理韧性","note":"不只是笼统的“坚强”。"}
+      ]
+    },
+    {
+      "id":"15","group":4,
+      "english":"Research shows that viewing stress as a challenge rather than a threat leads to better outcomes.",
+      "translation":"研究表明，把压力看作挑战而不是威胁，会带来更好的结果。",
+      "annotations":[
+        {"text":"Research","label":"research","type":"error","meaning":"研究","context":"Research shows that... = 研究表明……","note":"你曾误认成“调查”；本文应译为研究。"},
+        {"text":"viewing stress as a challenge","label":"view A as B","type":"structure","meaning":"把 A 看作 B","context":"把压力看作一种挑战","note":"viewing stress as a challenge 整体作主语；不是在说消除压力。"},
+        {"text":"rather than","type":"phrase","meaning":"而不是","context":"a challenge rather than a threat = 挑战，而不是威胁","note":"对比两种看待压力的方式。"},
+        {"text":"threat","type":"vocabulary","meaning":"威胁","context":"把压力视为威胁","note":"与 challenge（挑战）形成对比。"},
+        {"text":"outcomes","label":"outcome","type":"vocabulary","meaning":"结果；后果","context":"better outcomes = 更好的结果","note":"outcomes 是 outcome 的复数形式。"}
+      ]
+    },
+    {
+      "id":"16","group":4,
+      "english":"Neuroscience reveals that neuroplasticity is enhanced through challenging experiences.",
+      "translation":"神经科学表明，富有挑战性的经历会增强神经可塑性。",
+      "annotations":[
+        {"text":"Neuroscience","label":"neuroscience","type":"vocabulary","meaning":"神经科学","context":"Neuroscience reveals that... = 神经科学表明……","note":"neuro- = 神经。"},
+        {"text":"neuroplasticity","type":"vocabulary","meaning":"神经可塑性","context":"神经可塑性通过富有挑战性的经历得到增强","note":"这里与后文的 adaptability 相联系。"},
+        {"text":"enhanced","label":"enhance","type":"vocabulary","meaning":"增强；提高","context":"is enhanced = 得到增强","note":"这里是被动语态。"}
+      ]
+    },
+    {
+      "id":"17","group":4,
+      "english":"This adaptability is crucial for developing resilience.",
+      "translation":"这种适应能力对培养韧性至关重要。",
+      "annotations":[
+        {"text":"adaptability","type":"vocabulary","meaning":"适应能力；适应性","context":"这种适应能力对培养韧性至关重要","note":"This 承接前一句的神经可塑性。"},
+        {"text":"crucial","type":"vocabulary","meaning":"至关重要的；关键的","context":"crucial for developing resilience = 对培养韧性至关重要","note":"be crucial for... = 对……至关重要。"}
+      ]
+    },
+    {
+      "id":"18","group":4,
+      "english":"Chronic comfort, however, stifles this process, leading to a less adaptable and more fragile mind.",
+      "translation":"然而，长期处于舒适状态会抑制这一过程，使心理的适应能力变弱，也更脆弱。",
+      "annotations":[
+        {"text":"Chronic comfort","label":"chronic","type":"vocabulary","meaning":"长期的；慢性的","context":"长期处于舒适状态","note":"与前文 chronic stress 使用相同的“长期”含义。"},
+        {"text":"stifles","label":"stifle","type":"vocabulary","meaning":"抑制；阻碍；压制","context":"抑制培养韧性的这一过程","note":"leading to... 接结果；不是说舒适毫无价值。"},
+        {"text":"adaptable","type":"vocabulary","meaning":"适应性强的","context":"less adaptable = 适应能力更弱","note":"这里 less 与 more 构成两个比较描述。"}
+      ]
+    },
+    {
+      "id":"19","group":5,
+      "english":"Nowhere is our discomfort with discomfort more evident than in our inability to tolerate boredom.",
+      "translation":"我们对不适的抗拒，在我们无法忍受无聊这一点上体现得最明显。",
+      "annotations":[
+        {"text":"Nowhere","label":"Nowhere is X more evident than in Y","type":"structure","meaning":"X 在 Y 中体现得最明显","context":"对不适的抗拒，在不能忍受无聊这件事上最明显","note":"否定副词 Nowhere 置于句首，引起倒装；不是 now（现在）。"},
+        {"text":"tolerate","type":"vocabulary","meaning":"忍受；容忍","context":"tolerate boredom = 忍受无聊","note":"inability to... = 无法……。"}
+      ]
+    },
+    {
+      "id":"20","group":5,
+      "english":"It's often dismissed as an annoyance, but research from the University of Central Lancashire found that boredom sparks creativity and problem-solving.",
+      "translation":"无聊常被当成烦人的事而忽视，但中央兰开夏大学的研究发现，无聊会激发创造力和解决问题的能力。",
+      "annotations":[
+        {"text":"dismissed as an annoyance","label":"dismiss A as B","type":"phrase","meaning":"把 A 当成 B 而不予重视","context":"把无聊当成烦人的事而忽视","note":"这里是被动式 be dismissed as；It 指无聊；often = 常常。"},
+        {"text":"sparks","label":"spark","type":"vocabulary","meaning":"激发；引发","context":"激发创造力和解决问题的能力","note":"名词义为火花；本文是动词。"}
+      ]
+    },
+    {
+      "id":"21","group":5,
+      "english":"When we resist the urge to scroll, we give our minds space to wander and innovate.",
+      "translation":"当我们忍住刷屏的冲动时，就给思绪留下了自由发散和创新的空间。",
+      "annotations":[
+        {"text":"resist the urge to","type":"phrase","meaning":"忍住想做……的冲动","context":"忍住刷屏的冲动","note":"urge = 冲动，不是 argue（争论）；to 后接动词原形。"},
+        {"text":"scroll","type":"vocabulary","meaning":"滑动屏幕；刷内容","context":"这里指刷屏","note":"与前文数字工具带来的分心相联系。"},
+        {"text":"wander","type":"vocabulary","meaning":"漫游；游走","context":"让思绪自由发散","note":"这里不是身体在四处走动。"},
+        {"text":"innovate","type":"vocabulary","meaning":"创新","context":"给思绪留下创新的空间","note":"与 wander 并列。"}
+      ]
+    },
+    {
+      "id":"22","group":5,
+      "english":"This aligns with the concept of a growth mindset, as proposed by American psychologist Carol Dweck, which emphasizes that abilities can be developed through dedication and hard work, and sometimes, tolerating the boredom we experience.",
+      "translation":"这与美国心理学家卡罗尔·德韦克提出的成长型思维概念相符。该概念强调，能力可以通过投入和努力来培养，有时也可以通过忍受我们所经历的无聊来培养。",
+      "annotations":[
+        {"text":"aligns with","label":"align with","type":"error","meaning":"与……一致；相符；契合","context":"这与成长型思维的概念相符","note":"你曾把它扩大为“是……必不可少的一部分”。相符不等于必要组成部分。"},
+        {"text":"growth mindset","type":"phrase","meaning":"成长型思维","context":"德韦克提出的成长型思维概念","note":"后面的 which 从句说明这一概念的内容。"},
+        {"text":"emphasizes","label":"emphasize","type":"error","meaning":"强调","context":"强调能力可以通过投入和努力来培养","note":"emphasize（强调）不要与 ensure（确保）混淆；can = 可以。"}
+      ]
+    },
+    {
+      "id":"23","group":6,
+      "english":"To be clear, the solution isn't to reject comfort entirely; it's to balance it with intentional discomfort.",
+      "translation":"说清楚一点，解决办法不是完全拒绝舒适，而是用有意识安排的不适来与舒适取得平衡。",
+      "annotations":[
+        {"text":"intentional","type":"vocabulary","meaning":"有意识的；主动安排的","context":"intentional discomfort = 有意识安排的不适","note":"作者强调主动加入不适，而不是完全拒绝舒适。"}
+      ]
+    },
+    {
+      "id":"24","group":6,
+      "english":"Think of it as “microdosing hardship” - a series of small, manageable challenges that keep our mental and emotional muscles strong.",
+      "translation":"可以把它理解为“小剂量地接触困难”——一系列小而可承受的挑战，使我们的心理和情绪力量保持强健。",
+      "annotations":[
+        {"text":"manageable","type":"vocabulary","meaning":"可处理的；可承受的","context":"small, manageable challenges = 小而可承受的挑战","note":"强调难度在可应付的范围内。"}
+      ]
+    },
+    {
+      "id":"25","group":6,
+      "english":"Whenever possible, tackle the hardest task first, whether it's a workout, a tough conversation, or deep work.",
+      "translation":"只要条件允许，就先处理最难的任务，无论是锻炼、一次艰难的谈话，还是深度工作。",
+      "annotations":[
+        {"text":"Whenever possible","type":"phrase","meaning":"只要有可能；条件允许时","context":"条件允许时，先做最难的任务","note":"不要忽略这个条件限制。"},
+        {"text":"tackle","type":"vocabulary","meaning":"处理；着手解决；应对","context":"tackle the hardest task first = 先处理最难的任务","note":"这里表示着手应对任务。"},
+        {"text":"workout","type":"vocabulary","meaning":"锻炼；训练","context":"a workout = 一次锻炼","note":"exercise 也可指锻炼，不能与 experience（经历、经验）混淆。"}
+      ]
+    },
+    {
+      "id":"26","group":7,
+      "english":"These small acts aren't revolutionary - but they're enough to reawaken the dormant resilience we've buried under layers of ease.",
+      "translation":"这些小行动并不具有革命性，但足以重新唤醒被我们埋在层层安逸之下的沉睡的韧性。",
+      "annotations":[
+        {"text":"revolutionary","type":"vocabulary","meaning":"革命性的；突破性的","context":"并不是什么惊天动地的改变","note":"这里强调行动虽小，也能起作用。"},
+        {"text":"reawaken","type":"vocabulary","meaning":"重新唤醒","context":"重新唤醒沉睡的韧性","note":"re- = 再、重新。"},
+        {"text":"dormant","type":"vocabulary","meaning":"休眠的；沉睡的；暂时不活跃的","context":"dormant resilience = 沉睡的韧性","note":"不是说韧性不存在。"},
+        {"text":"ease","type":"error","meaning":"安逸；轻松；舒适","context":"layers of ease = 层层安逸","note":"你曾理解成懒惰；ease 不等于 laziness。"}
+      ]
+    },
+    {
+      "id":"27","group":7,
+      "english":"Comfort, like sugar, is tempting but deceptive.",
+      "translation":"舒适就像糖一样，诱人却具有迷惑性。",
+      "annotations":[
+        {"text":"tempting","type":"vocabulary","meaning":"诱人的","context":"舒适像糖一样诱人","note":"tempt = 诱惑。"},
+        {"text":"deceptive","type":"vocabulary","meaning":"具有迷惑性的；容易骗人的","context":"舒适的吸引力可能让人忽略它的代价","note":"deceive = 欺骗。"}
+      ]
+    },
+    {
+      "id":"28","group":7,
+      "english":"It delivers an instant lift, only to leave us sluggish and unprepared in the long run.",
+      "translation":"它会让我们立刻振奋起来，结果从长远来看却使我们变得迟缓、缺乏准备。",
+      "annotations":[
+        {"text":"only to","label":"only to do","type":"structure","meaning":"结果却……；最后却……","context":"立刻振奋，结果长期却变得迟缓、缺乏准备","note":"to 后接动词原形，常引出与前面预期相反的结果。"},
+        {"text":"sluggish","type":"vocabulary","meaning":"迟缓的；无精打采的","context":"leave us sluggish = 使我们变得迟缓","note":"leave + 人/物 + 状态。"},
+        {"text":"in the long run","type":"phrase","meaning":"从长远来看","context":"长期来看变得迟缓、缺乏准备","note":"与 instant（即时的）形成时间上的对比。"}
+      ]
+    },
+    {
+      "id":"29","group":7,
+      "english":"Discomfort, by contrast, is the crucible of growth, pushing us to confront uncertainty, adapt to challenges, and find meaning in effort.",
+      "translation":"相比之下，不适是成长的磨炼场，推动我们直面不确定性、适应挑战，并在努力中找到意义。",
+      "annotations":[
+        {"text":"by contrast","type":"phrase","meaning":"相比之下；与此相反","context":"把不适的作用与前文舒适的长期代价作对比","note":"标记对比关系。"},
+        {"text":"crucible","type":"vocabulary","meaning":"坩埚、熔炉；比喻严峻考验或磨炼场","context":"the crucible of growth = 成长的磨炼场","note":"这里是抽象比喻，不能只按字面理解为容器。"},
+        {"text":"confront","type":"vocabulary","meaning":"面对；直面","context":"confront uncertainty = 直面不确定性","note":"与 adapt、find 并列，是推动我们做的三个动作。"}
+      ]
+    },
+    {
+      "id":"30","group":8,
+      "english":"Thankfully, resilience is not a trait you are born with, but a skill that can be developed through intentional practice.",
+      "translation":"值得庆幸的是，韧性不是一种与生俱来的特质，而是一项可以通过有意识的练习培养出来的技能。",
+      "annotations":[
+        {"text":"not","label":"not A, but B","type":"structure","meaning":"不是 A，而是 B","context":"不是与生俱来的特质，而是可以培养的技能","note":"can be developed = 可以培养出来；不要吞掉 can。"},
+        {"text":"trait","type":"error","meaning":"特质；特点","context":"a trait you are born with = 与生俱来的特质","note":"你曾翻成天赋；trait 比 talent（天赋）的含义更广。"},
+        {"text":"you are born with","label":"be born with","type":"phrase","meaning":"与生俱来；生来就有","context":"修饰 trait，说明这种特质是生来就有的","note":"a trait (that) you are born with：省略关系词的定语从句。"},
+        {"text":"intentional practice","type":"phrase","meaning":"有意识的练习；主动练习","context":"通过有意识的练习培养韧性","note":"这里强调主动、有意识；不必等同于 deliberate practice 的专门术语。"}
+      ]
+    },
+    {
+      "id":"31","group":8,
+      "english":"So, the next time you feel the pull of ease, pause.",
+      "translation":"所以，下次当你感受到安逸的吸引时，先停一下。",
+      "annotations":[
+        {"text":"the next time","type":"structure","meaning":"下次当……的时候","context":"下次感受到安逸的吸引时","note":"the next time + 句子，可以引出时间状语。"}
+      ]
+    },
+    {
+      "id":"32","group":8,
+      "english":"Ask yourself: Is this momentary comfort helping me grow or is it keeping me stuck?",
+      "translation":"问问自己：这种短暂的舒适是在帮助我成长，还是让我停滞不前？",
+      "annotations":[
+        {"text":"momentary comfort","label":"momentary","type":"error","meaning":"短暂的；一时的","context":"momentary comfort = 短暂的舒适","note":"你曾翻成“及时舒适”；momentary 不是及时。"},
+        {"text":"keeping me stuck","label":"keep sb stuck","type":"phrase","meaning":"让某人停滞不前；困在原地","context":"让我一直困在原地","note":"keep + 人/物 + 状态；这里的 grow 是成长，不是生理发育。"}
+      ]
+    }
+  ]
+}

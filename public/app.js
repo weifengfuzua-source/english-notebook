@@ -1,3 +1,5 @@
+import { renderReading, bindReading } from "./reading.js?v=__BUILD_ID__";
+
 const TOPICS = ["社会与民生", "教育与科研", "科技与互联网", "环境与可持续发展", "经济与商业", "文化与艺术", "医疗与健康"];
 const main = document.querySelector("main");
 const navLinks = [...document.querySelectorAll("[data-route]")];
@@ -37,7 +39,8 @@ function renderArticles(slug) {
   }
   if (!slug || slug !== article.slug) history.replaceState(null, "", `#/articles/${article.slug}`);
   const options = notebook.articles.map((item) => `<option value="${escapeHtml(item.slug)}" ${item.slug === article.slug ? "selected" : ""}>${String(item.id).padStart(2, "0")} · ${escapeHtml(item.title)}</option>`).join("");
-  const sections = article.sections.map((section) => `
+  const sectionOrder = article.reading ? [...article.sections.filter((section) => section.kind === "original"), ...article.sections.filter((section) => section.kind !== "original")] : article.sections;
+  const sections = sectionOrder.map((section) => article.reading && section.kind === "original" ? renderReading(article.reading) : `
     <section class="article-section" data-kind="${section.kind}">
       <h2>${escapeHtml(section.title)}</h2>
       <div class="prose ${section.kind === "original" ? "reading-text" : ""}">${section.html}</div>
@@ -45,7 +48,7 @@ function renderArticles(slug) {
   main.innerHTML = `
     <div class="article-layout">
       <aside class="article-sidebar" aria-label="文章列表"><h2>ARTICLES</h2>${articleList(article.slug)}</aside>
-      <article class="article-page">
+      <article class="article-page ${article.reading ? "golden-reading" : ""}">
         <label class="mobile-article-select">选择文章
           <select id="article-select">${options}</select>
         </label>
@@ -58,6 +61,7 @@ function renderArticles(slug) {
       </article>
     </div>`;
   document.querySelector("#article-select")?.addEventListener("change", (event) => { location.hash = `#/articles/${event.target.value}`; });
+  if (article.reading) bindReading(document.querySelector(".annotated-reading"), article.reading);
 }
 
 function entryMatches(entry) {

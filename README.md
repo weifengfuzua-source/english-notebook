@@ -122,3 +122,11 @@ git push -u origin main
 
 - `001 Comfort & Discomfort`：完整内容，参与展示和统计。
 - `002 Quiet Quitting`：按用户提供的照片原文和精读总结整理，成绩 4/5，参与展示和统计。
+
+## Article 01 逐句精读样板
+
+`content/articles/001-comfort-and-discomfort.md` 保留原文和复盘；
+`content/readings/001-comfort-and-discomfort.json` 是 32 个阅读单元的英文、翻译及本句批注源。
+构建会核对全部英文与 Markdown 原文一致，并检查翻译、批注位置和重叠。
+该文件只提供正文阅读体验，不增加词汇统计或错误记录。
+修改正文时，需要同步维护对应阅读单元；批注的 `text` 必须是原句中的精确文字，`label` 可以保留词典形式或句式名称。

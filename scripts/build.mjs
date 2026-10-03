@@ -2,6 +2,7 @@ import crypto from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadReading } from "./lib/reading.mjs";
 import {
   loadArticles,
   loadRecords,
@@ -17,6 +18,7 @@ const DATA = path.join(ROOT, "data");
 const articles = await loadArticles(ROOT);
 const records = await loadRecords(ROOT);
 validateNotebook(articles, records);
+const readings = new Map(await Promise.all(articles.map(async (article) => [article.id, await loadReading(ROOT, article)])));
 
 const vocabulary = mergeTrackedEntries({ articles, records, field: "vocabulary" });
 const phrases = mergeTrackedEntries({ articles, records, field: "phrases" });
@@ -32,6 +34,7 @@ const publishedArticles = articles
     topic: article.topic,
     date: article.date ?? null,
     score: article.score ?? null,
+    ...(readings.get(article.id) ? { reading: readings.get(article.id) } : {}),
     sections: article.sections.map((section) => ({
       title: section.title,
       kind: section.kind,
@@ -51,12 +54,14 @@ const payload = {
   phrases,
   sentences,
 };
-const buildId = crypto.createHash("sha256").update(JSON.stringify(payload)).digest("hex").slice(0, 12);
+const assets = ["index.html", "app.js", "styles.css", "reading.js"];
+const templateSources = await Promise.all(assets.map((name) => fs.readFile(path.join(ROOT, "public", name), "utf8")));
+const buildId = crypto.createHash("sha256").update(JSON.stringify(payload)).update(templateSources.join("\n")).digest("hex").slice(0, 12);
 payload.buildId = buildId;
 
 await fs.rm(DIST, { recursive: true, force: true });
 await fs.cp(path.join(ROOT, "public"), DIST, { recursive: true });
-for (const name of ["index.html", "app.js"]) {
+for (const name of assets) {
   const file = path.join(DIST, name);
   const source = await fs.readFile(file, "utf8");
   await fs.writeFile(file, source.replaceAll("__BUILD_ID__", buildId), "utf8");
