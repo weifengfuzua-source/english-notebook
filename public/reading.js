@@ -1,9 +1,11 @@
 const escape = (value) => String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;");
 
+import { annotationStart } from "./reading-text.js?v=__BUILD_ID__";
+
 function annotatedEnglish(unit) {
   let cursor = 0;
   const parts = [];
-  const annotations = unit.annotations.map((annotation, index) => ({ ...annotation, index, start: unit.english.indexOf(annotation.text) })).sort((a, b) => a.start - b.start);
+  const annotations = unit.annotations.map((annotation, index) => ({ ...annotation, index, start: annotationStart(unit.english, annotation) })).sort((a, b) => a.start - b.start);
   for (const annotation of annotations) {
     parts.push(escape(unit.english.slice(cursor, annotation.start)));
     parts.push(`<mark class="reading-annotation annotation-${annotation.type}" role="button" tabindex="0" data-annotation="${annotation.index}" aria-expanded="false" aria-controls="annotation-${unit.id}" aria-label="${escape(annotation.text)}，查看本句批注">${escape(annotation.text)}</mark>`);

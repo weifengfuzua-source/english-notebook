@@ -18,7 +18,11 @@ const DATA = path.join(ROOT, "data");
 const articles = await loadArticles(ROOT);
 const records = await loadRecords(ROOT);
 validateNotebook(articles, records);
-const readings = new Map(await Promise.all(articles.map(async (article) => [article.id, await loadReading(ROOT, article)])));
+const readings = new Map(await Promise.all(articles.filter((article) => !article.draft).map(async (article) => {
+  const reading = await loadReading(ROOT, article);
+  if (!reading) throw new Error(`${article.file} 缺少逐句翻译和正文批注；请完成精读数据后再发布`);
+  return [article.id, reading];
+})));
 
 const vocabulary = mergeTrackedEntries({ articles, records, field: "vocabulary" });
 const phrases = mergeTrackedEntries({ articles, records, field: "phrases" });
@@ -54,7 +58,7 @@ const payload = {
   phrases,
   sentences,
 };
-const assets = ["index.html", "app.js", "styles.css", "reading.js"];
+const assets = ["index.html", "app.js", "styles.css", "reading.js", "reading-text.js"];
 const templateSources = await Promise.all(assets.map((name) => fs.readFile(path.join(ROOT, "public", name), "utf8")));
 const buildId = crypto.createHash("sha256").update(JSON.stringify(payload)).update(templateSources.join("\n")).digest("hex").slice(0, 12);
 payload.buildId = buildId;

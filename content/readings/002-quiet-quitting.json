@@ -1,0 +1,230 @@
+{
+  "articleId":2,
+  "groups":[
+    {"id":1,"title":"从社交媒体走进新闻"},
+    {"id":2,"title":"它真的新鲜吗？"},
+    {"id":3,"title":"给谁的判断背书？"},
+    {"id":4,"title":"离职数据与“不想工作”"},
+    {"id":5,"title":"统计事实与情绪体验"},
+    {"id":6,"title":"流行本身就是数据"}
+  ],
+  "units":[
+    {
+      "id":"01","group":1,
+      "english":"The hottest labor narrative right now is that everybody’s “quiet quitting”.",
+      "translation":"眼下最热门的劳动话题是，人人都在“静默离职”。",
+      "annotations":[
+        {"text":"quiet quitting","type":"phrase","meaning":"静默离职；安静离职","context":"仍在工作，但不再让工作占据全部生活，也不再投入过多额外精力","note":"本文不是指真正辞职；下一句给出了这里的含义。"}
+      ]
+    },
+    {
+      "id":"02","group":1,
+      "english":"Starting this summer, popular videos on TikTok with millions of views have used the term to refer to the art of having a job without letting it take over your life.",
+      "translation":"从今年夏天开始，TikTok 上播放量达数百万的热门视频，就用这个词来指称一种做法：有一份工作，但不让它占据自己的生活。",
+      "annotations":[]
+    },
+    {
+      "id":"03","group":1,
+      "english":"The term crawled out of that social-media petri dish into the mainstream-media landscape.",
+      "translation":"这个词从社交媒体这个“培养皿”中冒出来，进入了主流媒体的视野。",
+      "annotations":[]
+    },
+    {
+      "id":"04","group":2,
+      "english":"Statistically speaking, quiet quitting is not actually a thing.",
+      "translation":"从统计角度说，“静默离职”实际上并不是一种确实存在的现象。",
+      "annotations":[]
+    },
+    {
+      "id":"05","group":2,
+      "english":"Or, at least, it is not a new thing.",
+      "translation":"或者，至少它不是一种新现象。",
+      "annotations":[]
+    },
+    {
+      "id":"06","group":2,
+      "english":"As a workplace phenomenon, workers’ mild disengagement is about as novel as lunch breaks, and bleary-eyed colleagues stopping by your workstation to mutter.",
+      "translation":"作为一种职场现象，员工轻微的工作疏离，和午休以及睡眼惺忪的同事走到你的工位边嘟囔一样“新鲜”。",
+      "annotations":[
+        {"text":"novel","type":"vocabulary","meaning":"新颖的；新出现的","context":"与午休等常见现象一样“新鲜”，实际是在说并不新鲜","note":"这里是形容词，不是名词“小说”；as novel as... 带有反讽。"}
+      ]
+    },
+    {
+      "id":"07","group":2,
+      "english":"Admittedly, quiet quitting would seem to solve a major contemporary labor mystery.",
+      "translation":"诚然，“静默离职”似乎能解释当代劳动领域的一大谜题。",
+      "annotations":[]
+    },
+    {
+      "id":"08","group":2,
+      "english":"Labor productivity is falling after it surged in the first year of the pandemic.",
+      "translation":"劳动生产率在疫情第一年激增之后，现在正在下降。",
+      "annotations":[
+        {"text":"surged","label":"surge","type":"vocabulary","meaning":"激增；飙升","context":"劳动生产率在疫情第一年激增","note":"surged 是过去式；after 标明先激增、后下降的时间顺序。"}
+      ]
+    },
+    {
+      "id":"09","group":2,
+      "english":"The best explanation for this decline, however, is not a sudden outbreak of TikTok-transmitted laziness.",
+      "translation":"然而，对这种下降最好的解释，并不是经由 TikTok 传播的懒惰突然爆发。",
+      "annotations":[]
+    },
+    {
+      "id":"10","group":3,
+      "english":"The term has taken off in part because burned-out or bored workers are simply desperate for a fresh vocabulary to describe their feelings.",
+      "translation":"这个词走红，部分原因只是倦怠或无聊的员工迫切需要一套新的词语来描述自己的感受。",
+      "annotations":[
+        {"text":"taken off","label":"take off","type":"error","meaning":"迅速流行；走红","context":"这个词开始流行起来","note":"你曾误译成“被取代”；这里不是起飞或被取代。in part = 部分地，不能当作唯一原因。"}
+      ]
+    },
+    {
+      "id":"11","group":3,
+      "english":"Quiet quitting sounds to some like worker empowerment.",
+      "translation":"在一些人听来，“静默离职”像是在赋予员工自主权。",
+      "annotations":[]
+    },
+    {
+      "id":"12","group":3,
+      "english":"But realistically, the term is more likely to validate managers who think that their employees are slackers than to help ordinary workers reclaim their soul.",
+      "translation":"但从现实来看，与其说这个词会帮助普通员工找回自我，不如说它更可能让那些认为员工懒散的经理觉得自己的判断是对的。",
+      "annotations":[
+        {"text":"more likely to","label":"be more likely to A than to B","type":"structure","meaning":"与其说 B，不如说更可能 A","context":"更可能给经理的判断背书，而不是帮助普通员工找回自我","note":"比较两个可能性；A 是 validate managers，B 是 help ordinary workers，不要颠倒角色。"},
+        {"text":"validate managers","label":"validate","type":"error","meaning":"证实某人的看法；给观点背书","context":"让认为员工是懒人的经理觉得自己的判断是对的","note":"你最初没认出这个语境义，导致第 7 题人物关系漂移；不是验证经理的管理能力。"},
+        {"text":"slackers","label":"slacker","type":"vocabulary","meaning":"懒散的人；混日子的人","context":"经理认为自己的员工是懒散的人","note":"who think... 修饰 managers；这是经理的看法，不是作者对员工的判定。"},
+        {"text":"reclaim their soul","label":"reclaim","type":"vocabulary","meaning":"重新夺回；找回","context":"普通员工找回自我、找回被工作吞掉的生活","note":"soul 在这里是比喻，不必机械翻成夺回灵魂。"}
+      ]
+    },
+    {
+      "id":"13","group":3,
+      "english":"It offers a convenient explanation for seemingly lazy workers.",
+      "translation":"它为员工看起来懒散这一现象提供了一个方便的解释。",
+      "annotations":[]
+    },
+    {
+      "id":"14","group":3,
+      "english":"Complex questions such as “Am I running my team effectively?” can be reduced to the confident diagnosis that young people just don’t want to work.",
+      "translation":"“我是否在有效地管理团队？”这样的复杂问题，可以被简化成一个笃定的判断：年轻人就是不想工作。",
+      "annotations":[
+        {"text":"be reduced to","type":"phrase","meaning":"被简化为；被归结为","context":"把管理是否有效的复杂问题简化为年轻人不想工作","note":"can be reduced to = 可以被简化为；前面的问题与后面的判断不是同一回事。"},
+        {"text":"diagnosis that","label":"diagnosis / 名词 + that 从句","type":"structure","meaning":"“……”这一判断；that 从句解释名词的具体内容","context":"年轻人就是不想工作这一判断","note":"diagnosis 本义诊断，本文是判断、结论；that 引出判断的内容，不是普通定语从句。"}
+      ]
+    },
+    {
+      "id":"15","group":4,
+      "english":"For some reason, news media seem eager to confirm these managers’ worst fears.",
+      "translation":"不知为何，新闻媒体似乎急于证实这些经理最担心的事情。",
+      "annotations":[]
+    },
+    {
+      "id":"16","group":4,
+      "english":"Earlier this year, several outlets tried to convince Americans that “no one wants to work”, even as the economy added hundreds of thousands of jobs each month.",
+      "translation":"今年早些时候，一些媒体试图让美国人相信“没人想工作”，尽管经济每个月都增加了数十万个就业岗位。",
+      "annotations":[
+        {"text":"even as","type":"structure","meaning":"尽管……正在发生，仍然……","context":"媒体说没人想工作，与此同时就业岗位却在增加","note":"这里突出同时发生的两种情况之间的反差，不能只读成顺承关系。"}
+      ]
+    },
+    {
+      "id":"17","group":4,
+      "english":"The best evidence they had wasn’t evidence at all, but rather a misunderstanding of government data.",
+      "translation":"他们手中最有力的证据根本不是证据，而是对政府数据的误解。",
+      "annotations":[
+        {"text":"evidence","type":"vocabulary","meaning":"证据；依据","context":"他们拿来支持“没人想工作”的所谓证据","note":"本句否定了这些材料作为证据的有效性。","occurrence":1},
+        {"text":"wasn’t evidence at all, but rather","label":"not A at all, but rather B","type":"structure","meaning":"根本不是 A，而其实是 B","context":"不是证据，而是误解","note":"at all 加强否定；but rather 引出修正，不是补充一个并列原因。"}
+      ]
+    },
+    {
+      "id":"18","group":4,
+      "english":"As the official “quits rate” surged to all-time highs and the phrase Great Resignation made its way into headlines, some commentators perceived an overall disinclination to work.",
+      "translation":"随着官方“离职率”飙升至历史最高水平，“大辞职潮”这一说法登上新闻头条，一些评论者认为人们普遍不愿工作。",
+      "annotations":[
+        {"text":"surged to all-time highs","label":"surge to all-time highs","type":"phrase","meaning":"飙升至历史最高水平","context":"官方离职率升至历史最高水平","note":"all-time high = 历史最高点；这里描述离职率，不直接说明人们拒绝工作。"},
+        {"text":"made its way into headlines","label":"make one's way into headlines","type":"phrase","meaning":"登上新闻头条；进入公众视野","context":"“大辞职潮”这一说法进入新闻报道","note":"整体识别，不逐词拼成走进标题。"},
+        {"text":"disinclination to work","label":"disinclination to do","type":"phrase","meaning":"不愿做某事；缺乏意愿","context":"不愿工作的倾向","note":"inclination = 倾向、意愿；dis- 表示否定。这里是部分评论者的解读。"}
+      ]
+    },
+    {
+      "id":"19","group":4,
+      "english":"But most people weren’t quitting to retire; they were quitting to take a new job.",
+      "translation":"但大多数人离职不是为了退休，而是为了换一份新工作。",
+      "annotations":[]
+    },
+    {
+      "id":"20","group":4,
+      "english":"The labor force, total jobs, and hours worked increased throughout a period of time when news organizations were telling everybody that work was dead.",
+      "translation":"在新闻机构一直告诉大家“工作已死”的那段时期，劳动力人口、就业岗位总数和总工时始终都在增加。",
+      "annotations":[
+        {"text":"labor force","type":"error","meaning":"劳动力；劳动力人口","context":"劳动力人口在增加","note":"你曾误译为强迫劳动；force 类似 police force（警察队伍）中的队伍含义。"},
+        {"text":"hours worked","type":"error","meaning":"工作时长；总工时","context":"已经工作的小时数、总工时","note":"你曾误译为小时工；这里是数量指标，不是某类劳动者。"},
+        {"text":"throughout a period of time","label":"throughout a period","type":"phrase","meaning":"在整个时期内","context":"在媒体传播那种说法的整个时期内","note":"when 从句修饰这段时期；这里不能脑补成好工作消失或黑心公司强迫劳动。"}
+      ]
+    },
+    {
+      "id":"21","group":4,
+      "english":"It was weird.",
+      "translation":"这很奇怪。",
+      "annotations":[]
+    },
+    {
+      "id":"22","group":5,
+      "english":"The popularity of these empty-calorie labor trends suggests a divergence between statistical and deeper emotional truth.",
+      "translation":"这些缺乏实质的劳动趋势概念的流行，提示统计层面的事实与更深层的情绪体验之间存在背离。",
+      "annotations":[
+        {"text":"empty-calorie","type":"vocabulary","meaning":"原指热量高但营养少；比喻实际解释力很低","context":"看起来热闹，却没什么实质的职场流行概念","note":"calorie = 卡路里、热量；这里不是在讨论食物。"},
+        {"text":"divergence","type":"vocabulary","meaning":"分歧；背离；分叉","context":"统计事实与更深层的情绪体验之间的背离","note":"a divergence between A and B = A 与 B 之间存在背离。"},
+        {"text":"statistical and deeper emotional truth","label":"statistical truth / emotional truth","type":"phrase","meaning":"统计层面的事实 / 情绪体验层面的真实","context":"数据上的现实与人们情绪上感受到的现实","note":"统计事实 ≠ 情绪事实，是文章后半部分的核心关系。"}
+      ]
+    },
+    {
+      "id":"23","group":5,
+      "english":"Put another way, these quasi-trends are bad-vibe vehicles—delivery mechanisms for inexpressible negative ideas about the world that demand the news-headline treatment.",
+      "translation":"换句话说，这些所谓的趋势是负面情绪的载体——用来传递那些难以表达、需要以新闻头条形式呈现的对世界的负面想法。",
+      "annotations":[
+        {"text":"quasi-trends","label":"quasi-","type":"vocabulary","meaning":"准……；所谓的；类似但并不完全是","context":"这些所谓的趋势、似是而非的趋势","note":"并不一定是统计上成立的新劳动趋势。"},
+        {"text":"vehicles","label":"vehicle","type":"vocabulary","meaning":"车辆；抽象义为载体、媒介","context":"负面情绪的载体","note":"这里不是交通工具；vehicle for feelings = 情绪的载体。"},
+        {"text":"delivery mechanisms","label":"delivery mechanism","type":"phrase","meaning":"传递机制；输送渠道","context":"传递难以言表的负面想法的渠道","note":"与前面的 vehicles 解释同一比喻。"},
+        {"text":"inexpressible","type":"vocabulary","meaning":"难以表达的；难以言表的","context":"难以说清的负面想法","note":"修饰 negative ideas，不是说这些情绪不存在。"}
+      ]
+    },
+    {
+      "id":"24","group":5,
+      "english":"When people are looking for permission to feel their unnameable bad feelings, they’re satisfied when cheeky TikTok accounts or trend-chasing journalists give it to them.",
+      "translation":"当人们想为那些难以说清的负面感受寻求认可时，带点调侃的 TikTok 账号或追热点的记者给出这种认可，就会让他们感到满足。",
+      "annotations":[
+        {"text":"unnameable","type":"vocabulary","meaning":"难以命名的；难以准确说清的","context":"说不清的负面感受","note":"与前一句 inexpressible 呼应。"},
+        {"text":"cheeky","type":"vocabulary","meaning":"俏皮大胆的；带点调侃或冒犯意味的","context":"带有调侃意味的 TikTok 账号","note":"按语境理解，不只按字面词形猜。"},
+        {"text":"trend-chasing","type":"vocabulary","meaning":"追热点的；追逐潮流的","context":"追热点的记者","note":"与前文新劳动趋势的媒体包装相联系。"}
+      ]
+    },
+    {
+      "id":"25","group":5,
+      "english":"Quiet quitting is a bit of novel nonsense that might stand in for chronic labor issues such as the underrepresentation of unions or a profound American pressure to be careerist.",
+      "translation":"“静默离职”是一种新潮却没多少实质的说法，它可能被拿来替代对长期劳工问题的讨论，例如工会代表性不足，或美国社会深刻的事业至上压力。",
+      "annotations":[
+        {"text":"novel nonsense","label":"novel","type":"vocabulary","meaning":"新颖的；新出现的","context":"新潮但没多少实质的说法、新式噱头","note":"与第二段的 novel 使用相同的形容词义。"},
+        {"text":"stand in for","type":"phrase","meaning":"代替；充当……的替代品","context":"新潮标签被拿来代替对复杂劳工问题的讨论","note":"might = 可能；原文不是说这些标签必然取代了所有讨论。"},
+        {"text":"chronic","type":"vocabulary","meaning":"长期的；慢性的","context":"chronic labor issues = 长期存在的劳工问题","note":"上一篇见过 chronic stress；本句不是在说慢性疾病。"},
+        {"text":"underrepresentation","type":"vocabulary","meaning":"代表性不足","context":"工会代表性不足","note":"under- = 不足；representation = 代表性。"},
+        {"text":"careerist","type":"vocabulary","meaning":"事业至上的；过度追求职业晋升的人","context":"以事业成功为中心的社会压力","note":"pressure to be careerist = 要求以事业为中心的压力。"}
+      ]
+    },
+    {
+      "id":"26","group":6,
+      "english":"When a phrase takes off, it’s often because the new words fill a space of uncertainty, like the coining of a new diagnosis.",
+      "translation":"一个说法走红，往往是因为这些新词填补了一个尚不明确的领域，就像创设一种新的诊断名称一样。",
+      "annotations":[
+        {"text":"takes off","label":"take off","type":"error","meaning":"迅速流行；走红","context":"一个说法突然流行起来","note":"你曾误译为被取代；这里与第三段 taken off 含义相同。often = 往往，不是总是。"}
+      ]
+    },
+    {
+      "id":"27","group":6,
+      "english":"If quiet quitting is fake, the popularity of anti-work neologisms is its own data point that deserves to be taken seriously as a cultural phenomenon.",
+      "translation":"如果“静默离职”是假的，反工作类新词的流行本身就是一个数据点，值得作为一种文化现象认真对待。",
+      "annotations":[
+        {"text":"neologisms","label":"neologism","type":"vocabulary","meaning":"新词；新造词；新表达","context":"anti-work neologisms = 反工作类的新词","note":"这里研究的是新词的流行现象。"},
+        {"text":"data point","type":"phrase","meaning":"数据点；一个值得观察的事实或证据点","context":"新词的流行本身就是一个值得观察的事实","note":"趋势本身可能不成立，但流行这件事本身可以研究。"},
+        {"text":"taken seriously","label":"take sth seriously","type":"phrase","meaning":"认真对待某事","context":"认真对待新词流行这一事实","note":"be taken seriously 是被动式。"},
+        {"text":"as a cultural phenomenon","type":"phrase","meaning":"作为一种文化现象","context":"把热词的流行当作文化现象研究","note":"作者最后的落点不是简单否定 quiet quitting 的全部意义。"}
+      ]
+    }
+  ]
+}

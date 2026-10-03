@@ -14,6 +14,7 @@ import {
   serializeFrontMatter,
   slugify,
 } from "./lib/notebook.mjs";
+import { createReadingDraft } from "./lib/reading.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const INBOX = path.join(ROOT, "inbox", "new-reading.md");
@@ -176,7 +177,7 @@ const articleBody = [
   ...sections.map((section) => `## ${DISPLAY_TITLES[section.kind] || section.title}\n\n${section.content.trim()}`),
 ].join("\n\n");
 const date = front.date || new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai" }).format(new Date());
-const metadata = { id, title, slug, topic, date, score: front.score ?? null, draft: false };
+const metadata = { id, title, slug, topic, date, score: front.score ?? null, draft: true };
 
 const record = { articleId: id, vocabulary: [], phrases: [], sentences: [] };
 for (const section of sections) {
@@ -189,6 +190,13 @@ attachErrorsFromAllSections(sections, record, id);
 const base = `${formatId(id)}-${slug}`;
 await fs.writeFile(path.join(ROOT, "content", "articles", `${base}.md`), serializeFrontMatter(metadata, articleBody), "utf8");
 await fs.writeFile(path.join(ROOT, "content", "records", `${base}.json`), `${JSON.stringify(record, null, 2)}\n`, "utf8");
+const readingPath = path.join(ROOT, "content", "readings", `${base}.json`);
+const existingReading = await fs.stat(readingPath).then(() => true, () => false);
+if (!existingReading && sections.some((section) => section.kind === "original")) {
+  const article = { ...metadata, sections: sections.map((section) => ({ kind: section.kind, body: section.content })) };
+  await fs.mkdir(path.dirname(readingPath), { recursive: true });
+  await fs.writeFile(readingPath, `${JSON.stringify(createReadingDraft(article), null, 2)}\n`, { encoding: "utf8", flag: "wx" });
+}
 
 const archiveDir = path.join(ROOT, "inbox", "archive");
 await fs.mkdir(archiveDir, { recursive: true });
@@ -199,4 +207,4 @@ await fs.writeFile(INBOX, "# 新精读收件箱\n\n<!-- paste-reading-here -->\n
 
 const build = spawnSync(process.execPath, [path.join(ROOT, "scripts", "build.mjs")], { cwd: ROOT, encoding: "utf8" });
 if (build.status !== 0) throw new Error(`文章已保存，但构建失败：\n${build.stderr || build.stdout}`);
-console.log(JSON.stringify({ article: `${base}.md`, record: `${base}.json`, archive: path.relative(ROOT, archive), extracted: { vocabulary: record.vocabulary.length, phrases: record.phrases.length, sentences: record.sentences.length }, build: JSON.parse(build.stdout) }, null, 2));
+console.log(JSON.stringify({ article: `${base}.md`, record: `${base}.json`, archive: path.relative(ROOT, archive), status: "草稿已归档；补全逐句翻译、正文批注后，执行 reading.mjs publish --id " + id, extracted: { vocabulary: record.vocabulary.length, phrases: record.phrases.length, sentences: record.sentences.length }, build: JSON.parse(build.stdout) }, null, 2));

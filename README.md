@@ -10,7 +10,8 @@
 english-notebook/
 ├─ content/
 │  ├─ articles/          # 文章 Markdown，人可以直接阅读和修改
-│  └─ records/           # 每篇文章的结构化学习记录与真实错误
+│  ├─ records/           # 每篇文章的结构化学习记录与真实错误
+│  └─ readings/          # 英文阅读单元、逐句翻译和正文可点击批注
 ├─ data/                 # 自动汇总的词汇、词块、句式数据
 ├─ inbox/
 │  ├─ new-reading.md     # 每天把新的 GPT 精读总结粘贴到这里
@@ -18,6 +19,8 @@ english-notebook/
 ├─ public/               # 网站模板、样式和交互逻辑
 ├─ scripts/              # ingest、build、local server
 ├─ tests/                # 统计和解析规则测试
+├─ docs/READING_SOP.md    # 所有新文章统一执行的精读处理流程
+├─ AGENTS.md             # Codex 在本仓库必须遵循的处理标准
 ├─ dist/                 # build 生成的 GitHub Pages 成品
 └─ .github/workflows/    # push 到 main 后自动部署 Pages
 ```
@@ -49,16 +52,21 @@ node scripts/build.mjs
 
 ## 每天添加一篇精读
 
-1. 把 ChatGPT 输出的完整 Markdown 总结粘贴到 `inbox/new-reading.md`，替换占位文字。
-2. 执行：
+把完整原文和 ChatGPT 精读总结交给 Codex，或一起粘贴到 `inbox/new-reading.md`，然后说：
+
+> 处理今天的新精读并更新网站。
+
+剩下由 Codex 按 [固定流程](docs/READING_SOP.md) 完成：归档、核对原文、补全逐句翻译、放置正文批注、检查统计、桌面与手机验收、提交推送及核对线上版本。只有总结而没有完整原文时，会先保留草稿，请你补原文，不会用例句拼造全文。
+
+以下是供维护者执行的步骤，不需要你每天手动运行：
 
 ```powershell
 node scripts/ingest.mjs --topic 社会与民生
+node scripts/reading.mjs check --id 3
+node scripts/reading.mjs publish --id 3
 ```
 
-3. 脚本会生成规范文章和学习记录，重新统计全部内容，运行检查并构建网站。
-4. 原始输入会移动到 `inbox/archive/`，不会删除。
-5. 查看生成内容和 Git diff，确认后提交并推送。
+`ingest` 创建文章草稿、学习记录和逐句骨架，并保留原始输入到 `inbox/archive/`。翻译和本句释义由 Codex 根据原文与总结核对补全；脚本只做机械整理和校验，不会假装自动完成语义翻译。补全后才允许发布。缺少翻译、原文不一致、批注重叠或没有正文批注，检查都会失败。未完成草稿不展示、不参与统计，也不会影响已发布内容。
 
 主题必须是以下七类之一：
 
@@ -104,6 +112,7 @@ git push -u origin main
 
 - `content/articles/*.md`
 - `content/records/*.json`
+- `content/readings/*.json`
 - `inbox/new-reading.md`
 - `public/index.html`
 - `public/styles.css`
@@ -123,10 +132,12 @@ git push -u origin main
 - `001 Comfort & Discomfort`：完整内容，参与展示和统计。
 - `002 Quiet Quitting`：按用户提供的照片原文和精读总结整理，成绩 4/5，参与展示和统计。
 
-## Article 01 逐句精读样板
+## 统一逐句精读标准
 
 `content/articles/001-comfort-and-discomfort.md` 保留原文和复盘；
 `content/readings/001-comfort-and-discomfort.json` 是 32 个阅读单元的英文、翻译及本句批注源。
 构建会核对全部英文与 Markdown 原文一致，并检查翻译、批注位置和重叠。
 该文件只提供正文阅读体验，不增加词汇统计或错误记录。
 修改正文时，需要同步维护对应阅读单元；批注的 `text` 必须是原句中的精确文字，`label` 可以保留词典形式或句式名称。
+
+Text 2 也使用同一模板，包含 27 个阅读单元。以后每篇正式文章都必须提供对应 `content/readings/*.json`，不能退回普通 Markdown 正文。一个词在同句出现多次时，用 `occurrence` 明确标注第几次出现（从 1 开始）。批注里的易错提醒不直接增加错误次数；真实错误仍只来自学习记录。
